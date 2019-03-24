@@ -119,12 +119,14 @@ h1
     font-weight:300;
     font-size:24px;
     line-height: 24px;
+    color: black;
 }
 h2
 {
      font-size: 18px;
     line-height: 18px;
    font-weight:300;
+    color: black;
 }
 a:hover
 {
@@ -225,6 +227,7 @@ Extra large   ≥1200px   .col-xl-
   }
 
 
+    
 }
 
 
@@ -243,6 +246,7 @@ h1
     font-weight:300;
     font-size:69px;
     line-height: 69px;
+    color: black;
 }
  .floatright
 {
@@ -279,6 +283,7 @@ h1
      font-size: 32px;
     line-height: 32px;
    font-weight:300;
+    color: black;
 }
     .topmargin
 {
