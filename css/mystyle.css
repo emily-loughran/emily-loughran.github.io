@@ -86,33 +86,7 @@ border-bottom: 4px solid black;
 {
     margin-top:62px;
 }
-.whatsthestory
-{
-    background-color: aquamarine;
-}
-.homotech
-{
-    background-color: darkred;
-}
-.banished
-{
-    background-color: deeppink;
-}
-.motyf
-{
-    
-    background-image: url(../images/motyf-gold.png);
-    height:500px;
-    background-size:100% 100%;
-}
-.grub
-{
-    background-color: palegreen;
-}
-.breastfriends
-{
-    background-color: hotpink;
-}
+
 .headingborder
 {
     border-bottom:4px solid black; 
