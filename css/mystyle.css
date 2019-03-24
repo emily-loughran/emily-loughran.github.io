@@ -17,7 +17,7 @@
   width: 100%;
   display: block;
   transition: top 0.1s;
-border-bottom: 4px solid black;
+border-bottom: 3px solid black;
     background-color: white;
     z-index: 1000;
     padding-top:10px;
@@ -89,19 +89,19 @@ border-bottom: 4px solid black;
 
 .headingborder
 {
-    border-bottom:4px solid black; 
-    border-top:4px solid black;
-   border-bottom-width:4px;
-    border-top-width:4px;
+    border-bottom:3px solid black; 
+    border-top:3px solid black;
+   border-bottom-width:3px;
+    border-top-width:3px;
    border-bottom-color:black;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:4px solid black; 
+    border-bottom:3px solid black; 
     
-   border-bottom-width:4px;
+   border-bottom-width:3px;
     
    border-bottom-color:black;
    border-bottom-style: solid;
@@ -117,8 +117,8 @@ border-bottom: 4px solid black;
 h1
 {
     font-weight:300;
-    font-size:26px;
-    line-height: 26px;
+    font-size:24px;
+    line-height: 24px;
 }
 h2
 {
@@ -231,7 +231,7 @@ Extra large   ≥1200px   .col-xl-
 
 /* Apply these rules if the screen width is GREATER than 1200px */
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   div[class^="col"]{
     border-style: none;
     border-color:none;
