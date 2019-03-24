@@ -177,6 +177,7 @@ a
 .pic
 {
     height:400px;
+    background-color: black;
 }
 button
 {
@@ -188,6 +189,7 @@ button
     
     
 }
+
 button:focus
 {
     box-shadow: 0px, 0px, 0px, 0px;
