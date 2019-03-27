@@ -258,9 +258,11 @@ h1
     h3
 {
     font-weight:300;
-    font-size:69px;
+    font-size:169px;
     line-height: 69px;
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
  .floatright
 {
