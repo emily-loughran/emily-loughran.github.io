@@ -241,7 +241,7 @@ Extra large   ≥1200px   .col-xl-
 
 /* Apply these rules if the screen width is GREATER than 1200px */
 
-@media (min-width: 1100px) {
+@media (min-width: 1158px) {
   div[class^="col"]{
     border-style: none;
     border-color:none;
