@@ -7,6 +7,16 @@
 {
     background-image: url(../images/hero_homo_technican.png);
     height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.banished
+{
+    background-image: url(../images/hero_banished.png);
+    height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
     
 }
 .grey{
