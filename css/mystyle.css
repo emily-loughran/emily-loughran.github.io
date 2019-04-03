@@ -6,7 +6,7 @@
 .homo_technican
 {
     background-image: url(../images/hero_homo_technican.png);
-    height:1200px;
+    height:400px;
     background-repeat:no-repeat;
     background-size:cover;
     
@@ -14,7 +14,7 @@
 .banished
 {
     background-image: url(../images/hero_banished.png);
-    height:1200px;
+    height:400px;
     background-repeat:no-repeat;
     background-size:cover;
     
@@ -319,6 +319,22 @@ border-bottom: 6px solid black;
     
    
 }
+    .homo_technican
+{
+    background-image: url(../images/hero_homo_technican.png);
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.banished
+{
+    background-image: url(../images/hero_banished.png);
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
 
 }
 
@@ -420,6 +436,22 @@ border-bottom: 6px solid black;
     padding-bottom:10px;
     
    
+}
+    .homo_technican
+{
+    background-image: url(../images/hero_homo_technican.png);
+    height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.banished
+{
+    background-image: url(../images/hero_banished.png);
+    height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
 }
 
 }
