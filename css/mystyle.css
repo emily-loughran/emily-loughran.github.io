@@ -3,6 +3,12 @@
     font-family:'Warnock';
     src: url(../fonts/Warnock/WarnockPro-LightIt.otf)format('opentype');
 }
+.homo_technican
+{
+    background-image: url(../images/hero_homo_technican.png);
+    height:1200px;
+    
+}
 .grey{
 
     font-family:'Warnock';
