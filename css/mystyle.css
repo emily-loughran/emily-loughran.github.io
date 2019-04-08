@@ -24,7 +24,12 @@
     font-family:'Warnock';
    
 }
-
+.project-arrow
+{
+    width:25px;
+    height:17.5px;
+    float: right;
+}
 
 #navbar {
   
@@ -335,6 +340,12 @@ border-bottom: 6px solid black;
     background-size:cover;
     
 }
+    .project-arrow
+{
+    width:100px;
+    height:70px;
+    float: right;
+}
 
 }
 
@@ -453,7 +464,12 @@ border-bottom: 6px solid black;
     background-size:cover;
     
 }
-
+.project-arrow
+{
+    width:100px;
+    height:70px;
+    float: right;
+}
 }
 
      
