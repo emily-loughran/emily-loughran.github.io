@@ -19,6 +19,7 @@
     background-size:cover;
     
 }
+
 .grey{
 
     font-family:'Warnock';
@@ -61,7 +62,12 @@ border-bottom: 3px solid black;
   
    
 }
+
 .right
+{
+    text-align: right;
+}
+.floatright
 {
     text-align: right;
 }
@@ -105,7 +111,11 @@ border-bottom: 3px solid black;
 }
 .topmargin
 {
-    margin-top:45px;
+    margin-top:50px;
+}
+.topmargincontent
+{
+    margin-top:85px;
 }
 
 .headingborder
@@ -170,11 +180,7 @@ a
 {
     color: black;
 }
-.para
-{
-    margin-top:30px;
-    margin-bottom:30px;
-}
+
 .arrow{
     float: right;
     height:60px;
@@ -188,7 +194,11 @@ a
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 6px solid black;
+    border-bottom: 3px solid black;
+      padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
 
 }
 
@@ -209,16 +219,7 @@ a
     height:400px;
     background-color: black;
 }
-button
-{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-    
-    
-}
+
 
 button:focus
 {
@@ -250,6 +251,7 @@ h1
  .floatright
 {
     text-align: right;
+    
 } 
     .toppadding
 {
@@ -346,7 +348,23 @@ border-bottom: 6px solid black;
     height:70px;
     float: right;
 }
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+    border-bottom: 6px solid black;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    
 
+}
+   
 }
 
 
@@ -469,6 +487,21 @@ border-bottom: 6px solid black;
     width:100px;
     height:70px;
     float: right;
+}
+    .collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+    border-bottom: 6px solid black;
+   padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:15px;
+
 }
 }
 
