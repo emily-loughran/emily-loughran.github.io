@@ -107,11 +107,11 @@ border-bottom: 3px solid black;
 .toppaddingbig
 {
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 .topmargin
 {
-    margin-top:50px;
+    margin-top:45px;
 }
 .topmargincontent
 {
@@ -149,13 +149,13 @@ h1
 {
     font-weight:300;
     font-size:16px;
-    line-height: 16px;
+    line-height: 21px;
     color: black;
 }
 h2
 {
      font-size: 16px;
-    line-height: 16px;
+    line-height: 21px;
    font-weight:300;
     color: black;
 }
