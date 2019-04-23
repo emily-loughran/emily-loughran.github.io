@@ -17,13 +17,12 @@
 .icon_2
 {
     background-color: black;
-    height:300px;
+    height:250px;
     margin-top:15px
        
 }
 .icon_3
 {
-    background-color: #457D8D;
     height:300px;
     opacity:0.9;
     margin-top:15px
@@ -101,10 +100,11 @@ button:active
 {
     color:#457D8D;
 }
-.popup1_open:hover
+.popup2_open
 {
     color:#457D8D;
 }
+
 
 h5
 {
@@ -122,11 +122,16 @@ h1
    
     font-family:'FontsFree-Net-proxima_nova_reg-webfont';
 }
+.paddingbottom
+{
+    margin-bottom: 15px;
+}
 h2
 {
    
     font-family:'FontsFree-Net-proxima_nova_reg-webfont';
     font-size: 16px;
+    text-align: left;
 }
 h4
 {
