@@ -63,11 +63,11 @@
 
 body
 {
-    background-color: #94999C;
+    background-color:#F4F2F2;
 }
 a
 {
-    color: black;
+    color: #615A52;;
 }
 .popup_content {
   margin: 10px;
@@ -94,19 +94,30 @@ button:active
     z-index: 2000;
     font-family:'ElectraLTStd-Regular';
     padding-top: 15px;
+    color: #615A52;
     
 }
 
 .popup1_open
 {
-    color:#3D4348;
+    color:#615A52;
+    cursor: pointer;
+    
 }
 .popup2_open
 {
-    color:#3D4348;
+    color:#615A52;
+    cursor: pointer;
 }
 
-
+.proxima
+{
+   font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+    font-size: 130px;
+    line-height: 1.05;
+    letter-spacing: 5px;
+    color: #615A52; 
+}
 
 h5
 {
@@ -116,13 +127,23 @@ h1
 {
     
     font-family:'ElectraLTStd-Regular';
-    font-size: 155px;
+    font-size: 130px;
     line-height: 1.05;
+    letter-spacing: 5px;
+    color: #615A52;
 }
 .menu
 {
    
     font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+    color: #615A52;
+}
+.menu2
+{
+   
+    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+    color: #615A52;
+
 }
 .paddingbottom
 {
@@ -131,9 +152,11 @@ h1
 h2
 {
    
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
-    font-size: 16px;
+   font-family:'ElectraLTStd-Regular';
+    font-size: 18px;
     text-align: left;
+    color: #615A52;
+    line-height: 1.2;
 }
 h4
 {
@@ -141,6 +164,7 @@ h4
     font-size: 36px;
     font-weight: 300;
     text-align: center;
+    color: #615A52;
 }
 
 h6
@@ -150,9 +174,10 @@ h6
     color: #3D4348;
       text-align: center;
     z-index: 2000;
-    font-family:'ElectraLTStd-Regular';
+    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
     padding-top: 15px;
     text-align: left;
+    color: #615A52;
     
     
 }
