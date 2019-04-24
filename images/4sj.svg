@@ -3,13 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="87.4 0 225.2 437" enable-background="new 87.4 0 225.2 437" xml:space="preserve">
-<path opacity="0.7" fill="#E8DBD4" d="M305.9,437H94.1c-3.7,0-6.7-3.3-6.7-7.3V7.3c0-4,3-7.3,6.7-7.3h211.7c3.7,0,6.7,3.3,6.7,7.3
-	v422.3C312.6,433.7,309.6,437,305.9,437z"/>
+<path opacity="0.7" fill="#625B53" d="M305.8,437H94.1c-3.7,0-6.7-3.3-6.7-7.3V7.3c0-4,3-7.3,6.7-7.3h211.7c3.7,0,6.7,3.3,6.7,7.3
+	v422.3C312.6,433.7,309.5,437,305.8,437z"/>
 <rect x="130.2" y="21.5" fill="none" width="139.5" height="61.3"/>
 <g>
-	<text transform="matrix(1 0 0 1 130.1314 35.646)" fill="#625B53" font-family="'ElectraLTStd-Regular'" font-size="19.0503">ShortStories </text>
-	<text transform="matrix(1 0 0 1 130.1314 58.5067)" fill="#625B53" font-family="'ElectraLTStd-Regular'" font-size="19.0503">WithBigWords, </text>
-	<text transform="matrix(1 0 0 1 130.1314 81.3667)" fill="#625B53" font-family="'ElectraLTStd-Regular'" font-size="19.0503">Explained</text>
+	<text transform="matrix(1 0 0 1 130.1314 35.646)" enable-background="new    "><tspan x="0" y="0" fill="#F4F2F2" font-family="'ElectraLTStd-Regular'" font-size="19.0503">ShortStories,With</tspan><tspan x="0" y="22.9" fill="#F4F2F2" font-family="'ElectraLTStd-Regular'" font-size="19.0503">BigWordsExplain</tspan><tspan x="0" y="45.7" fill="#F4F2F2" font-family="'ElectraLTStd-Regular'" font-size="19.0503">ed </tspan></text>
 </g>
 <g>
 	

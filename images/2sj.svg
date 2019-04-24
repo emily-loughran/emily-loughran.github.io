@@ -3,8 +3,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="86.1 -2 225.3 437.7" enable-background="new 86.1 -2 225.3 437.7" xml:space="preserve">
-<path fill="#FFFFFF" d="M305,435.8H93.3c-3.7,0-6.7-3.3-6.7-7.3V6.1c0-4,3-7.3,6.7-7.3H305c3.7,0,6.7,3.3,6.7,7.3v422.3
-	C311.7,432.5,308.7,435.8,305,435.8z"/>
+<path opacity="0.7" fill="#625B53" d="M304.7,435.4H92.9c-3.7,0-6.7-3.3-6.7-7.3V5.8c0-4,3-7.3,6.7-7.3h211.7c3.7,0,6.7,3.3,6.7,7.3
+	v422.3C311.4,432.1,308.4,435.4,304.7,435.4z"/>
 <rect x="128.5" y="19.4" fill="none" width="139.5" height="61.3"/>
 <g>
 	<text transform="matrix(1 0 0 1 128.4777 33.6818)" fill="#625B53" font-family="'ElectraLTStd-Regular'" font-size="19.0503">BeACritic, </text>

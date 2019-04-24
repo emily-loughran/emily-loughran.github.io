@@ -113,8 +113,8 @@ button:active
 .proxima
 {
    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
-    font-size: 130px;
-    line-height: 1.05;
+    font-size: 160px;
+    line-height: 1;
     letter-spacing: 5px;
     color: #615A52; 
 }
@@ -127,8 +127,8 @@ h1
 {
     
     font-family:'ElectraLTStd-Regular';
-    font-size: 130px;
-    line-height: 1.05;
+    font-size: 160px;
+    line-height: 0.9;
     letter-spacing: 5px;
     color: #615A52;
 }
