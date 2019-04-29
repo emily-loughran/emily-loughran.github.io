@@ -8,7 +8,11 @@
     font-family:'ElectraLTStd-Regular';
     src: url(../fonts/ElectraLTStd-Regular.otf)format('opentype');
 }
-
+.video
+{
+    z-index: -1000;
+    
+}
 .icon
 {
     background-color: black;
