@@ -1,169 +1,157 @@
-@font-face
-    {
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+@font-face {
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     src: url(../fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf)format('truetype');
 }
-@font-face
-    {
-    font-family:'ElectraLTStd-Regular';
+
+@font-face {
+    font-family: 'ElectraLTStd-Regular';
     src: url(../fonts/ElectraLTStd-Regular.otf)format('opentype');
 }
-.video
-{
+
+
+.myvideo{
+
+    margin-top:-90px;
+    z-index:-1000;
+}
+.video {
     z-index: -1000;
-    
 }
-.icon
-{
+
+.icon {
     background-color: black;
-    height:200px;
+    height: 200px;
 }
-.icon_2
-{
+
+.icon_2 {
     background-color: black;
-    height:250px;
-    margin-top:15px
-       
+    height: 250px;
+    margin-top: 15px
 }
-.icon_3
-{
-    height:300px;
-    opacity:0.9;
-    margin-top:15px
-    
-       
+
+.icon_3 {
+    height: 300px;
+    opacity: 0.9;
+    margin-top: 15px
 }
-.icon_4
-{
+
+.icon_4 {
     background-color: lightgrey;
-    height:300px;
-    opacity:0.9;
-    margin-top:15px
-       
+    height: 300px;
+    opacity: 0.9;
+    margin-top: 15px
 }
-.icon_5
-{
+
+.icon_5 {
     background-color: #D89487;
-    height:300px;
-    opacity:0.9;
-    margin-top:15px
-       
+    height: 300px;
+    opacity: 0.9;
+    margin-top: 15px
 }
-.icon_6
-{
+
+.icon_6 {
     background-color: black;
-    height:300px;
-    margin-top:15px
-       
+    height: 300px;
+    margin-top: 15px
 }
-.icon_7
-{
+
+.icon_7 {
     background-color: lightgrey;
-    height:300px;
-    opacity:0.9;
-    margin-top:15px
-       
+    height: 300px;
+    opacity: 0.9;
+    margin-top: 15px
 }
 
-body
-{
-    background-color:#F4F2F2;
-}
-a
-{
-    color: #615A52;;
-}
-.popup_content {
-  margin: 10px;
-  padding: 15px 15px;
-  max-width: 100%;
-  border: 0px solid #444;
-  background: none;
 
-    
-}
-a:hover
-{
-    text-decoration: none;
-    color:inherit;
-    opacity: 0.1;
-}
-button:active
-{
-    background-color: none;
-}
-.mainmenu
-{
-    text-align: center;
-    z-index: 2000;
-    font-family:'ElectraLTStd-Regular';
-    padding-top: 15px;
+
+a {
     color: #615A52;
     
 }
 
-.popup1_open
-{
-    color:#615A52;
-    cursor: pointer;
-    
+.popup_content {
+    margin: 10px;
+    padding: 15px 15px;
+    max-width: 100%;
+    border: 0px solid #444;
+    background: none;
+
+
 }
-.popup2_open
-{
-    color:#615A52;
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.1;
+}
+
+button:active {
+    background-color: none;
+}
+
+.mainmenu {
+    text-align: center;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
+    color: #615A52;
+
+}
+
+.popup1_open {
+    color: #615A52;
+    cursor: pointer;
+
+}
+
+.popup2_open {
+    color: #615A52;
     cursor: pointer;
 }
 
-.proxima
-{
-   font-family:'FontsFree-Net-proxima_nova_reg-webfont';
-    font-size: 160px;
-    line-height: 1;
-    letter-spacing: -20px;
-    color: #615A52; 
-}
 
-h5
-{
+
+h5 {
     font-size: 16px;
 }
-h1
-{
-    
-    font-family:'ElectraLTStd-Regular';
+
+h1 {
+
+    font-family: 'ElectraLTStd-Regular';
     font-size: 160px;
     line-height: 1.05;
     letter-spacing: -20px;
     color: #615A52;
 }
-.menu
-{
-   
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+
+.menu {
+
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     color: #615A52;
+    padding-top: 15px;
 }
-.menu2
-{
-   
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+
+.menu2 {
+
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     color: #615A52;
 
 }
-.paddingbottom
-{
+
+.paddingbottom {
     margin-bottom: 15px;
 }
-h2
-{
-   
-   font-family:'ElectraLTStd-Regular';
+
+h2 {
+
+    font-family: 'ElectraLTStd-Regular';
     font-size: 18px;
     text-align: left;
     color: #615A52;
     line-height: 1.2;
 }
-h4
-{
+
+h4 {
     color: black;
     font-size: 36px;
     font-weight: 300;
@@ -171,38 +159,275 @@ h4
     color: #615A52;
 }
 
-h6
-{ 
+h6 {
     font-size: 36px;
     font-weight: 300;
     color: #3D4348;
-      text-align: center;
+    text-align: center;
     z-index: 2000;
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     padding-top: 15px;
     text-align: left;
     color: #615A52;
-    
+
+
+}
+    .microtype
+{
+    font-size:18px;
+       font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    line-height: 10px;
     
 }
-.highlight
-{
-    color: aqua;
-}
-.transp
-{
+
+.transp {
     opacity: 0.2;
 }
-@media screen and (min-width: 768px) {   .menu
-{
-   
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
-    padding-top:15px;
-}}
+@media screen and (max-width: 450px) {
+    
+    h1 {
 
-@media screen and (min-width: 1158px) {       .menu
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 75px;
+    line-height: 1.05;
+    letter-spacing: -10px;
+    color: #615A52;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .menu {
+
+        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+        padding-top: 15px;
+        
+        
+    }
+    
+h1 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 200px;
+    line-height: 1.05;
+    letter-spacing: -25px;
+    color: #615A52;
+}
+h2 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 20px;
+    text-align: left;
+    color: #615A52;
+    line-height: 1.2;
+}
+    h5 {
+    font-size: 20px;
+}
+    h4 {
+    color: black;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    color: #615A52;
+}
+h6 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #3D4348;
+    text-align: center;
+    z-index: 2000;
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    padding-top: 15px;
+    text-align: left;
+    color: #615A52;
+
+
+}
+    .microtype
 {
-   
-    font-family:'FontsFree-Net-proxima_nova_reg-webfont';
-    padding-top:15px;
-}}
+    font-size:20px;
+       font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    line-height: 10px;
+    
+}
+
+
+}
+
+@media screen and (min-width: 1600px) {
+    .menu {
+
+        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+        padding-top: 15px;
+        
+        
+    }
+    
+h1 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 240px;
+    line-height: 1.05;
+    letter-spacing: -30px;
+    color: #615A52;
+}
+h2 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 24px;
+    text-align: left;
+    color: #615A52;
+    line-height: 1.2;
+}
+    h5 {
+    font-size: 24px;
+}
+    h4 {
+    color: black;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    color: #615A52;
+}
+h6 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #3D4348;
+    text-align: center;
+    z-index: 2000;
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    padding-top: 15px;
+    text-align: left;
+    color: #615A52;
+
+
+}
+    .microtype
+{
+    font-size:24px;
+       font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    line-height: 10px;
+    
+}
+
+
+}
+
+@media screen and (min-width: 2000px) {
+    .menu {
+
+        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+        padding-top: 15px;
+        
+        
+    }
+    
+h1 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 300px;
+    line-height: 1.05;
+    letter-spacing: -40px;
+    color: #615A52;
+}
+h2 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 24px;
+    text-align: left;
+    color: #615A52;
+    line-height: 1.2;
+}
+    h5 {
+    font-size: 24px;
+}
+    h4 {
+    color: black;
+    font-size: 52px;
+    font-weight: 300;
+    text-align: center;
+    color: #615A52;
+}
+h6 {
+    font-size: 52px;
+    font-weight: 300;
+    color: #3D4348;
+    text-align: center;
+    z-index: 2000;
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    padding-top: 15px;
+    text-align: left;
+    color: #615A52;
+
+
+}
+    .microtype
+{
+    font-size:24px;
+       font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    line-height: 10px;
+    
+}
+
+
+}
+
+
+@media screen and (min-width: 2400px) {
+    .menu {
+
+        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+        padding-top: 15px;
+        
+        
+    }
+    
+h1 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 380px;
+    line-height: 1.05;
+    letter-spacing: -45px;
+    color: #615A52;
+}
+h2 {
+
+    font-family: 'ElectraLTStd-Regular';
+    font-size: 28px;
+    text-align: left;
+    color: #615A52;
+    line-height: 1.2;
+}
+    h5 {
+    font-size: 28px;
+}
+    h4 {
+    color: black;
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    color: #615A52;
+}
+h6 {
+    font-size: 56px;
+    font-weight: 300;
+    color: #3D4348;
+    text-align: center;
+    z-index: 2000;
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    padding-top: 15px;
+    text-align: left;
+    color: #615A52;
+
+
+}
+    .microtype
+{
+    font-size:24px;
+       font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    line-height: 10px;
+    
+}
+
+
+}
