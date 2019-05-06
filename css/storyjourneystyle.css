@@ -7,8 +7,105 @@
     font-family: 'ElectraLTStd-Regular';
     src: url(../fonts/ElectraLTStd-Regular.otf)format('opentype');
 }
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit; 
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #615A52; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #615A52; 
+}
+.dropdown-menu
+{
+   border: 0px;
+z-index:-1000;
+    height:40vh;
+    width:100vw;
+    background-color: pink;
+    overflow: hidden;
+    top:0px;
+    align-content: center;
+}
+.dropdown-menu:hover
+{
+   border: 0px;
+z-index:-1000;
+    height:40vh;
+    background-color: inherit;
+    overflow: hidden;
+    top:0px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: inherit;
+    border-color:inherit;
+    color: #615A52;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.dropright .dropdown-toggle::after {
+    border-left: 0em;
+}
+.btn-primary
+{
+   background-color: inherit;
+    color: #615A52;
+    border:none;
+    width:30vw;
+    text-align: left;
+    background-repeat: no-repeat;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;
+    color: #615A52;
+    font-family: 'ElectraLTStd-Regular';
+    opacity:1;
+    padding-left: 0px;
+    
+}
+.btn-primary:hover
+{
+    background-color: inherit;
+    color:#615A52;
+}
+.btn-primary:focus
+{
+    background-color: inherit;
+    color:#615A52;
+    box-shadow: 0px 0px 0px 0px;
+    opacity:1;
+}
+.btn-primary:active
+{
+    background-color: inherit;
+    color:#615A52;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.logo
+{
+    float:center;
+    bottom:50vh;
+}
+.logo2
+{
+    float:center;
+    top:45vh;
+}
 .myvideo{
 
     margin-top:-90px;
@@ -16,50 +113,6 @@
 }
 .video {
     z-index: -1000;
-}
-
-.icon {
-    background-color: black;
-    height: 200px;
-}
-
-.icon_2 {
-    background-color: black;
-    height: 250px;
-    margin-top: 15px
-}
-
-.icon_3 {
-    height: 300px;
-    opacity: 0.9;
-    margin-top: 15px
-}
-
-.icon_4 {
-    background-color: lightgrey;
-    height: 300px;
-    opacity: 0.9;
-    margin-top: 15px
-}
-
-.icon_5 {
-    background-color: #D89487;
-    height: 300px;
-    opacity: 0.9;
-    margin-top: 15px
-}
-
-.icon_6 {
-    background-color: black;
-    height: 300px;
-    margin-top: 15px
-}
-
-.icon_7 {
-    background-color: lightgrey;
-    height: 300px;
-    opacity: 0.9;
-    margin-top: 15px
 }
 
 
@@ -152,12 +205,23 @@ h2 {
 }
 
 h4 {
-    color: black;
+    
     font-size: 36px;
     font-weight: 300;
     text-align: center;
     color: #615A52;
 }
+h3 {
+    
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;
+    color: #615A52;
+    font-family: 'ElectraLTStd-Regular';
+    
+    
+}
+
 
 h6 {
     font-size: 36px;
@@ -172,9 +236,10 @@ h6 {
 
 
 }
+
     .microtype
 {
-    font-size:18px;
+    font-size:16px;
        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     line-height: 10px;
     
@@ -183,6 +248,7 @@ h6 {
 .transp {
     opacity: 0.2;
 }
+
 @media screen and (max-width: 450px) {
     
     h1 {
@@ -195,7 +261,7 @@ h6 {
 }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     .menu {
 
         font-family: 'FontsFree-Net-proxima_nova_reg-webfont';

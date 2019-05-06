@@ -7,6 +7,25 @@
 /*this is where my personal website starst*/
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
 .homo_technican
 {
     background-image: url(../images/hero_homo_technican.png);
@@ -27,6 +46,7 @@
 .grey{
 
     font-family:'Warnock';
+    
    
 }
 .project-arrow
