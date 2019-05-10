@@ -7,6 +7,13 @@
     font-family: 'ElectraLTStd-Regular';
     src: url(../fonts/ElectraLTStd-Regular.otf)format('opentype');
 }
+
+.about
+{
+    padding-left:60px;
+    padding-right:60px;
+    padding-top:30px;
+}
 .video
 {
     background-blend-mode: multiply;
@@ -439,7 +446,7 @@ h6 {
     .menu {
 
         font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
-        padding-top: 15px;
+        padding-top: 20px;
         
         
     }
@@ -455,13 +462,13 @@ h1 {
 h2 {
 
     font-family: 'ElectraLTStd-Regular';
-    font-size: 28px;
+    font-size: 56px;
     text-align: left;
     color: #615A52;
     line-height: 1.2;
 }
     h5 {
-    font-size: 28px;
+    font-size: 24px;
 }
     h4 {
     color: black;

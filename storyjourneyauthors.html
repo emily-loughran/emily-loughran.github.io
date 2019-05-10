@@ -97,7 +97,16 @@ img {vertical-align: top;}
   
 }
 
-
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 12px;
+  background-color: #615A52;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
 
 /* Caption text */
 .text {
@@ -110,13 +119,8 @@ img {vertical-align: top;}
     z-index:100;
 }
 .text_two {
-  color: black;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  text-align: left;
-    z-index:-100;
+ top:200px;
+    
 }
 .text_three {
   color: black;
@@ -163,43 +167,39 @@ img {vertical-align: top;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  
-  
-  <div class="text row">
-      
-    <div class="col-sm-6 col-12  text"><h1><span class="popup1_open"><a href="#">A d r i a n T a h e n y</a></span></h1></div>
+    <div class=" row about">
+        <div class="col-sm-6  col-12">
+            <h1><span class="popup1_open"><a href="#">A d r i a n T a h e n y</a></span> 
+            </h1>
+        </div>
+        <div class="col-sm-4 offset-1 text_two col-12">
+            <h2>Adrian Taheny has appeared in many notable theatre productions, including Druid’s Threepenny Opera. He is retired from the Irish Financial Services industry and now pursues his passion for writing and photography. He had two stories published in Storytellers, New Writing from Ireland and two further stories in Sins, New Irish Crime Stories in Oct 2018. He is in the process of completing his first novel.<br><span class="microtype"><a href="#">
+         adriantaheny@storyjourney.app</a></span>
+            </h2>
+        </div>
     </div>
-    <div class="row titles">
-        
-       
-      <div class="col-sm-4 col-12 offset-sm-8 text_two"><h2>Adrian Taheny has appeared in many notable theatre productions, including Druid’s Threepenny Opera. He is retired from the Irish Financial Services industry and now pursues his passion for writing and photography. He had two stories published in Storytellers, New Writing from Ireland and two further stories in Sins, New Irish Crime Stories in Oct 2018. He is in the process of completing his first novel.</h2><h2><span class="microtype">Contact:</span><br><a href="storyjourneyindex.html"><span class="microtype">adriantaheny@storyjourney.app</span></a></h2></div>
-        
-    </div>
-    
-    
+</div>
+     
    <section id="popup1">
         <div class="row">
-            <div class="col-6 offset-6">
-  <h6>·the pioneering author of StoryJourney.
+            <div class="col-4 offset-6">
+  <h6>·the first and pioneering author of StoryJourney.
 </h6>
  
                 </div>
             </div>
 </section>
-  
 
-    </div>
 
-<a class="prev" onclick="plusSlides(-1)"><img src="images/arrowsj.png"></a>
-<a class="next" onclick="plusSlides(1)"><img src="images/arrowsjright.png"></a>
+<a class="prev" onclick="plusSlides(-1)"><img src="images/arrow%20sj.png"></a>
+<a class="next" onclick="plusSlides(1)"><img src="images/arrow%20sj2.png"></a>
 
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+<span class="dot" onclick="currentSlide(1)"></span> 
+
 </div>
 
 <script>
