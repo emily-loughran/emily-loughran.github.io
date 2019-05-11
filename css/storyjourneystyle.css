@@ -178,19 +178,22 @@ h3 {
     
     
 }
+
 .indent
 {
-    padding-left:15px;
+    margin-left:-15px;
+    
 }
 
 
-h6 {
+h7 {
    font-size: 36px;
     text-align: left;
     z-index: 2000;
     font-family: 'ElectraLTStd-Regular';
     padding-top: 15px;
     color: #615A52;
+    line-height: 1.2;
 
 
 }
@@ -236,6 +239,7 @@ h1 {
     letter-spacing: -20px;
     color: #615A52;
 }
+    
 h2 {
 
     font-family: 'ElectraLTStd-Regular';
