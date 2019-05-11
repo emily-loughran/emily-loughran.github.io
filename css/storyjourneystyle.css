@@ -13,6 +13,7 @@
     padding-left:60px;
     padding-right:60px;
     padding-top:30px;
+    z-index:1000;
 }
 .video
 {
@@ -39,54 +40,7 @@ z-index:-1000;
     top:0px;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-    background-color: inherit;
-    border-color:inherit;
-    color: #615A52;
-}
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: none;
-}
-.dropright .dropdown-toggle::after {
-    border-left: 0em;
-}
-.btn-primary
-{
-   background-color: inherit;
-    color: #615A52;
-    border:none;
-    width:30vw;
-    text-align: left;
-    background-repeat: no-repeat;
-    padding-top:5px;
-    padding-bottom: 5px;
-    font-size: 36px;
-    font-weight: 300;
-    text-align: left;
-    color: #615A52;
-    font-family: 'ElectraLTStd-Regular';
-    opacity:1;
-    padding-left: 0px;
-    
-}
-.btn-primary:hover
-{
-    background-color: inherit;
-    color:#615A52;
-}
-.btn-primary:focus
-{
-    background-color: inherit;
-    color:#615A52;
-    box-shadow: 0px 0px 0px 0px;
-    opacity:1;
-}
-.btn-primary:active
-{
-    background-color: inherit;
-    color:#615A52;
-    box-shadow: 0px 0px 0px 0px;
-}
+
 body
 {
     background-color: #F5F3F3;
@@ -94,11 +48,9 @@ body
 .aboutimage
 {
     height:80vh;
-    
-    
-    
-    
+   
 }
+
 .logo
 {
     float:center;
@@ -113,9 +65,7 @@ body
 
     margin-top:-90px;
     z-index:-1000;
-}
-.video {
-    z-index: -1000;
+    position: absolute;
 }
 
 
@@ -154,6 +104,7 @@ button:active {
 
 }
 
+
 .popup1_open {
     color: #615A52;
     cursor: pointer;
@@ -178,6 +129,8 @@ h1 {
     line-height: 1.05;
     letter-spacing: -15px;
     color: #615A52;
+    z-index:1000;
+    position: absolute;
 }
 
 .menu {
@@ -185,6 +138,7 @@ h1 {
     font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     color: #615A52;
     padding-top: 15px;
+    
 }
 
 .menu2 {
@@ -224,17 +178,18 @@ h3 {
     
     
 }
+.indent
+{
+    padding-left:15px;
+}
 
 
 h6 {
-    font-size: 36px;
-    font-weight: 300;
-    color: #3D4348;
-    text-align: center;
-    z-index: 2000;
-    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
-    padding-top: 15px;
+   font-size: 36px;
     text-align: left;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
     color: #615A52;
 
 
