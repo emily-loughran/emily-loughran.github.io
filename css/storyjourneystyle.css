@@ -116,7 +116,19 @@ button:active {
     cursor: pointer;
 }
 
+h6 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #3D4348;
+    text-align: center;
+    z-index: 2000;
+    font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
+    padding-top: 15px;
+    text-align: left;
+    color: #615A52;
 
+
+}
 
 h5 {
     font-size: 16px;
@@ -186,6 +198,7 @@ h3 {
 }
 
 
+
 h7 {
    font-size: 36px;
     text-align: left;
@@ -197,6 +210,8 @@ h7 {
 
 
 }
+
+
 
     .microtype
 {
