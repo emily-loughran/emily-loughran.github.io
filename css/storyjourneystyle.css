@@ -293,7 +293,17 @@ h6 {
     line-height: 10px;
     
 }
+h7 {
+   font-size: 48px;
+    text-align: left;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
+    color: #615A52;
+    line-height: 1.2;
 
+
+}
 
 }
 
@@ -352,7 +362,17 @@ h6 {
     line-height: 10px;
     
 }
+h7 {
+   font-size: 48px;
+    text-align: left;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
+    color: #615A52;
+    line-height: 1.2;
 
+
+}
 
 }
 
@@ -410,6 +430,17 @@ h6 {
        font-family: 'FontsFree-Net-proxima_nova_reg-webfont';
     line-height: 10px;
     
+}
+    h7 {
+   font-size: 52px;
+    text-align: left;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
+    color: #615A52;
+    line-height: 1.2;
+
+
 }
 
 
@@ -472,5 +503,16 @@ h6 {
     
 }
 
+h7 {
+   font-size: 56px;
+    text-align: left;
+    z-index: 2000;
+    font-family: 'ElectraLTStd-Regular';
+    padding-top: 15px;
+    color: #615A52;
+    line-height: 1.2;
+
+
+}
 
 }
