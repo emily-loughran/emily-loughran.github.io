@@ -40,6 +40,16 @@ z-index:-1000;
     top:0px;
 }
 
+.progress-indicator {
+    position: fixed;
+    bottom:0;
+   left: 15px;
+    right: 15px;
+}
+.text_two {
+ top:15vh;
+    
+}
 
 body
 {
@@ -47,7 +57,12 @@ body
 }
 .aboutimage
 {
-    height:80vh;
+   z-index: -1000;
+   top:15vh;
+    
+    overflow: hidden;
+   
+
    
 }
 
