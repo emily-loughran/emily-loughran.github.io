@@ -25,7 +25,7 @@
 z-index:-1000;
     height:40vh;
     width:100vw;
-    background-color: pink;
+    
     overflow: hidden;
     top:0px;
     align-content: center;
@@ -53,7 +53,7 @@ z-index:-1000;
 
 body
 {
-    background-color: #F5F3F3;
+    background-color: #F4F3F3;
 }
 .aboutimage
 {
