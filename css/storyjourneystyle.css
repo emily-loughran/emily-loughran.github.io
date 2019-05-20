@@ -7,6 +7,11 @@
     font-family: 'ElectraLTStd-Regular';
     src: url(../fonts/ElectraLTStd-Regular.otf)format('opentype');
 }
+
+@font-face {
+    font-family: 'ElectraLTStd-Cursive';
+    src: url(../fonts/ElectraLTStd-Cursive.otf)format('opentype');
+}
 .downloadbutton
 {
      border-radius: 10px;
@@ -14,9 +19,12 @@
   padding: 10px; 
   width: 93px;
   height: 33px;
-    position: absolute;
-    top:50vh;
+    margin-top: 15px;
    
+}
+.cursive
+{
+   font-family: 'ElectraLTStd-Cursive'; 
 }
 .about
 {
@@ -86,6 +94,13 @@ body
     width: 100%;
     bottom:30px;
     
+    
+}
+
+.position-button{
+    position: absolute;
+    width: 100%;
+    bottom:40px;
     
 }
 .paddingimg
@@ -270,7 +285,13 @@ h7 {
     opacity: 0.2;
 }
 
+
+
 @media screen and (max-width: 450px) {
+    
+    .hide-mobile{
+        display: none;
+    }
     
     h1 {
 
@@ -561,13 +582,15 @@ h7 {
 }
 .downloadbutton
 {
-     border-radius: 10px;
-  border: 1.4px solid #615A52;
-  padding: 10px; 
-  width: 130px;
-  height: 36px;
-    position: absolute;
-    top:50vh;
+    border-radius: 10px;
+    border: 1.4px solid #615A52;
+    padding: 10px; 
+    width: 130px;
+    height: 36px;
+    
+   
+    
    
 }
+   
 }
