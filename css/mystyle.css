@@ -9,28 +9,7 @@
     src: url(../fonts/Helvetica/HelveticaNeueLTStd-Lt.otf)format('opentype');
 }
 
-/*this is where my personal website starst*/
 
-
-/* width */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: inherit; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: black; 
-}
 .homo_technican
 {
     background-image: url(../images/hero_homo_technican.png);
@@ -89,7 +68,7 @@ border-bottom: 3px solid black;
     padding-left: 15px;
      padding-right: 15px;
      
-    
+    font-family:'Helvetica';
   
    
 }
@@ -137,7 +116,7 @@ border-bottom: 3px solid black;
 }
 .toppaddingbig
 {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 .topmargin
