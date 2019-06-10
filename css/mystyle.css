@@ -8,7 +8,10 @@
     font-family:'Helvetica';
     src: url(../fonts/Helvetica/HelveticaNeueLTStd-Lt.otf)format('opentype');
 }
-
+.cream
+{
+    background-color: #FFF7ED;
+}
         .story_journey
 {
     background-image: url(../images/story_journey_14.png);
