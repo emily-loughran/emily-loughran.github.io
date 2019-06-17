@@ -121,21 +121,28 @@ border-bottom: 3px solid black;
 
     .toppadding
 {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    
+}
+    .toppaddingbutton
+{
+    padding-top:8px;
+    margin-bottom: -8px;
+    
 }
 .toppaddingbig
 {
-    padding-top: 12px;
+    padding-top: 16px;
     padding-bottom: 0px;
 }
 .topmargin
 {
-    margin-top:40px;
+    margin-top:42px;
 }
 .topmargincontent
 {
-    margin-top:85px;
+    margin-top:80px;
 }
 
 .headingborder
