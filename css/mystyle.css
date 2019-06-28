@@ -141,8 +141,8 @@
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-    margin-top: -22px;
-      padding-bottom: 0px;
+    padding-top: 52px;
+      padding-bottom: 52px;
     
     
    
@@ -187,7 +187,7 @@ border-bottom: 2px solid black;
 
 .navcontainer
 {
-    height:52px;
+    height:178px;
 }
 .top-left {
   position: absolute;
@@ -214,7 +214,7 @@ border-bottom: 2px solid black;
     .toppaddingbutton
 {
     padding-top:52px;
-    margin-bottom: 42px;
+    margin-bottom: 52px;
     
 }
 .toppaddingbig
@@ -383,7 +383,7 @@ h1
     .toppaddingbutton
 {
     padding-top:52px;
-    margin-bottom: 42px;
+    margin-bottom: 52px;
     
 }
 .toppaddingbig
@@ -449,8 +449,8 @@ h1
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-   margin-top: -30px;
-      margin-bottom: -4px;
+   padding-top: 52px;
+      padding-bottom: 52px;
     
    
 }
@@ -612,8 +612,8 @@ h1
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-    margin-top: -30px;
-    padding-top: -30px;
+    padding-top: 62px;
+    padding-top: 62px;
     
     
     
