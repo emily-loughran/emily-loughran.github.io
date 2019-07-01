@@ -348,7 +348,7 @@ button:focus
  
     .navcontainer
 {
-    height:56px;
+    height:188px;
 }
 
 h1
@@ -519,7 +519,7 @@ border-bottom: 2px solid black;
 }
         .navcontainer
 {
-    height:54px;
+    height:220px;
 }
 h1
 {
@@ -568,7 +568,7 @@ h1
      padding-right: 15px;
     padding-top: -20px;
     margin-top: -15px;
-    margin-bottom: -4px;
+    margin-bottom: 15px;
   
    
 }
