@@ -141,8 +141,8 @@
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-    padding-top: 52px;
-      padding-bottom: 52px;
+    padding-top: 0px;
+      padding-bottom: 0px;
     
     
    
@@ -159,6 +159,7 @@ border-bottom: 2px solid black;
    font-weight:300;
     padding-left: 15px;
      padding-right: 15px;
+    margin-top: -25px;
      
     font-family:'NB';
   
@@ -187,7 +188,7 @@ border-bottom: 2px solid black;
 
 .navcontainer
 {
-    height:178px;
+    height:48px;
 }
 .top-left {
   position: absolute;
@@ -348,7 +349,7 @@ button:focus
  
     .navcontainer
 {
-    height:188px;
+    height:50px;
 }
 
 h1
@@ -404,6 +405,8 @@ h1
    font-weight:300;
     padding-left: 15px;
      padding-right: 15px;
+    margin-top: -32px;
+    margin-bottom: -2px;
     
     
   
@@ -449,8 +452,8 @@ h1
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-   padding-top: 52px;
-      padding-bottom: 52px;
+   padding-top: 0px;
+      padding-bottom: 0px;
     
    
 }
@@ -519,7 +522,7 @@ border-bottom: 2px solid black;
 }
         .navcontainer
 {
-    height:220px;
+    height:50px;
 }
 h1
 {
@@ -567,8 +570,8 @@ h1
     padding-left: 15px;
      padding-right: 15px;
     padding-top: -20px;
-    margin-top: -15px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: -5px;
   
    
 }
@@ -612,8 +615,8 @@ h1
 border-bottom: 2px solid black;
     background-color: white;
     z-index: 1000;
-    padding-top: 62px;
-    padding-top: 62px;
+    margin-top: -48px;
+    margin-bottom: 0px;
     
     
     
