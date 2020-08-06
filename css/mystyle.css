@@ -19,6 +19,18 @@
     src: url(../fonts/NB/GT-America-Light-Italic.otf)format('opentype');
 
 }
+@font-face
+{
+    font-family:'DM';
+    src: url(../fonts/DM/DMSans-Italic.ttf)format('truetype');
+
+}
+@font-face
+{
+    font-family:'DM';
+    src: url(../fonts/DM/DMSans-Regular.ttf)format('truetype');
+
+}
 
 
 ::selection {
@@ -38,7 +50,7 @@
   padding: 0px 15px;
   position: absolute;
   top: 52px;
-    font-family: 'NB';
+    font-family: 'DM';
 }
 
 
@@ -70,6 +82,23 @@
 {
     background-color: #FFF7ED;
 }
+.researching_for
+{
+    background-image: url(../images/research.png);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.happy_birthday
+{
+    background-image: url(../images/Frame%206.png);
+    height:400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
        .story_journey
 {
     background-image: url(../images/story_journey_14x.png);
@@ -80,7 +109,7 @@
 }
 .homo_technican
 {
-    background-image: url(../images/hero_homo_technican.png);
+    background-image: url(../images/homo_technican_11.png);
     height:400px;
     background-repeat:no-repeat;
     background-size:cover;
@@ -100,7 +129,8 @@
     font-size:18px;
  
     
-    font-family:'NBC';
+    font-family:'DM';
+    font-style: italic;
 
     margin-top: 10px;
     
@@ -110,14 +140,21 @@
 .footer a
 {
   
-    color: black;
+    color: #013829;
+    font-family:'DM';
+    font-style: italic;
 }
 .footer a:hover
 {
   
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
+    font-family:'DM';
+    font-style:normal;
+    
 }
+
+
 .project-arrow
 {
     width:22px;
@@ -133,7 +170,7 @@
   width: 100%;
   display: block;
   transition: top 0.1s;
-border-bottom: 2px solid black;
+border-bottom: 2px solid #013829;
     background-color: white;
     z-index: 1000;
     padding-top: 0px;
@@ -146,7 +183,7 @@ border-bottom: 2px solid black;
 #navbar a {
   float: left;
   display: block;
-  color: black;
+  color: #013829;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -155,11 +192,12 @@ border-bottom: 2px solid black;
     padding-left: 15px;
      padding-right: 15px;
     margin-top: -25px;
-     
-    font-family:'NB';
+     font-style: italic;
+    font-family:'DM';
   
    
 }
+
 
 .right
 {
@@ -227,28 +265,31 @@ border-bottom: 2px solid black;
 
 .headingborder
 {
-    border-bottom:2px solid black; 
-    border-top:2px solid black;
+    border-bottom:2px solid #013829; 
+    border-top:2px solid #013829;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid black; 
+    border-bottom:2px solid #013829; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
    
 }
 
 #navbar a:hover {
   
- text-decoration: underline !important;
+ text-decoration: none !important;
+    color: black;
+    font-style: normal;
+    
 }
 
 
@@ -257,16 +298,18 @@ h1
     font-weight:300;
     font-size:48px;
     line-height: 52px;
-    color: black;
-     font-family:'NB';
+    color: #013829;
+     font-family:'DM';
+    font-style: italic;
 }
 h2
 {
      font-size: 18px;
     line-height: 21px;
    font-weight:300;
-    color: black;
-    font-family:'NB';
+    color: #013829;
+    font-family:'DM';
+    font-style: italic;
 }
 h3
 {
@@ -274,17 +317,19 @@ h3
     font-size:24px;
     line-height: 24px;
     color: white;
-     font-family:'NB';
+     font-family:'DM';
+    font-style: italic;
 }
 a:hover
 {
-     color: black;
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
     font-weight:300;
+    font-style: normal;
 }
 .underline
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a
 {
@@ -298,18 +343,18 @@ a
 
 .collapsible {
   background-color: white;
-  color: black;
+  color: #013829;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #013829;
       padding-top:0px;
     padding-bottom:0px;
     padding-left:15px;
     padding-right:15px;
-    font-family:'Helvetica';
+    font-family:'DM';
 
 }
 
@@ -322,7 +367,7 @@ a
   display: none;
   overflow: hidden;
   background-color: white;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #013829;
     margin-top: -80px;
 }
 .pic
@@ -353,8 +398,9 @@ h1
     font-weight:300;
     font-size:56px;
     line-height: 64px;
-    color: black;
-    font-family:'NB';
+    color: #013829;
+    font-family:'DM';
+    font-style: italic;
 }
     h3
 {
@@ -364,7 +410,8 @@ h1
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-    font-family:'NB';
+    font-family:'DM';
+    font-style: italic;
 }
  .floatright
 {
@@ -393,7 +440,7 @@ h1
 #navbar a {
   float: left;
   display: block;
-  color: black;
+  color: #013829;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -405,6 +452,7 @@ h1
     margin-bottom: -2px;
     
     
+    
   
    
 }
@@ -413,27 +461,28 @@ h1
      font-size: 18px;
     line-height: 24px;
    font-weight:300;
-    color: black;
-    font-family:'NB';
+    color: #013829;
+    font-family:'DM';
+    font-style: italic;
 }
 
     .headingborder
 {
-    border-bottom:2px solid black; 
-    border-top:2px solid black;
+    border-bottom:2px solid #013829; 
+    border-top:2px solid #013829;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid black; 
+    border-bottom:2px solid #013829; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
    
 }
@@ -445,13 +494,29 @@ h1
   width: 100%;
   display: block;
   transition: top 0.1s;
-border-bottom: 2px solid black;
+border-bottom: 2px solid #013829;
     background-color: white;
     z-index: 1000;
    padding-top: 0px;
       padding-bottom: 0px;
     
    
+}
+    .researching_for
+{
+    background-image: url(../images/research.png);
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+    .happy_birthday
+{
+    background-image: url(../images/Frame%206.png);
+    height:800px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
 }
         .story_journey
 {
@@ -486,18 +551,19 @@ border-bottom: 2px solid black;
 }
 .collapsible {
   background-color: white;
-  color: black;
+  color: #013829;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #013829;
     padding-top:15px;
     padding-bottom:15px;
     padding-left:15px;
     padding-right:15px;
-    font-family:'NB';
+    font-family:'DM';
+    font-style: italic;
     
 
 }
@@ -525,8 +591,9 @@ h1
     font-weight:300;
     font-size:69px;
     line-height: 76px;
-    color: black;
-    font-family:'NB';
+    color: #013829;
+    font-family:'DM';
+    font-style: italic;
 }
     h3
 {
@@ -537,6 +604,7 @@ h1
     padding-left: 15px;
     padding-right: 15px;
     font-family:'NB';
+    
 }
  .floatright
 {
@@ -557,7 +625,7 @@ h1
 #navbar a {
   float: left;
   display: block;
-  color: black;
+  color: #013829;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -576,27 +644,27 @@ h1
      font-size: 18px;
     line-height: 24px;
    font-weight:300;
-    color: black;
+    color: #013829;
     font-family:'NB';
 }
 
     .headingborder
 {
-    border-bottom:2px solid black; 
-    border-top:2px solid black;
+    border-bottom:2px solid #013829; 
+    border-top:2px solid #013829;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid black; 
+    border-bottom:2px solid #013829; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:black;
+   border-bottom-color:#013829;
    border-bottom-style: solid;
    
 }
@@ -606,9 +674,9 @@ h1
   position: fixed;
   top: 0;
   width: 100%;
-  display: block;
+  display: #013829;
   transition: top 0.1s;
-border-bottom: 2px solid black;
+border-bottom: 2px solid #013829;
     background-color: white;
     z-index: 1000;
     margin-top: -48px;
@@ -617,6 +685,22 @@ border-bottom: 2px solid black;
     
     
    
+}
+    .researching_for
+{
+    background-image: url(../images/research.png);
+    height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+    .happy_birthday
+{
+    background-image: url(../images/Frame%206.png);
+    height:1200px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
 }
             .story_journey
 {
@@ -651,18 +735,18 @@ border-bottom: 2px solid black;
 }
     .collapsible {
   background-color: white;
-  color: black;
+  color: #013829;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #013829;
    padding-top:20px;
     padding-bottom:20px;
     padding-left:15px;
     padding-right:15px;
-        font-family:'NB';
+        font-family:'DM';
 
 }
 
