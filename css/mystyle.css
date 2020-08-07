@@ -151,14 +151,14 @@ a .grey:hover
 .footer a
 {
   
-    color: #013829;
+    color: red;
     font-family:'DM';
     font-style: italic;
 }
 .footer a:hover
 {
   
-    color: black;
+    color: red;
     text-decoration: none;
     font-family:'DM';
     font-style:normal;
@@ -181,7 +181,7 @@ a .grey:hover
   width: 100%;
   display: block;
   transition: top 0.1s;
-border-bottom: 2px solid #013829;
+border-bottom: 2px solid red;
     background-color: white;
     z-index: 1000;
     padding-top: 0px;
@@ -194,7 +194,7 @@ border-bottom: 2px solid #013829;
 #navbar a {
   float: left;
   display: block;
-  color: #013829;
+  color: red;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -276,21 +276,21 @@ border-bottom: 2px solid #013829;
 
 .headingborder
 {
-    border-bottom:2px solid #013829; 
-    border-top:2px solid #013829;
+    border-bottom:2px solid red; 
+    border-top:2px solid red;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid #013829; 
+    border-bottom:2px solid red; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
    
 }
@@ -298,7 +298,7 @@ border-bottom: 2px solid #013829;
 #navbar a:hover {
   
  text-decoration: none !important;
-    color: black;
+    color: red;
     font-style: normal;
     
 }
@@ -309,7 +309,7 @@ h1
     font-weight:300;
     font-size:36px;
     line-height: 52px;
-    color: #013829;
+    color: red;
      font-family:'DM';
     font-style: italic;
 }
@@ -322,7 +322,7 @@ h2
      font-size: 16px;
     line-height: 21px;
    font-weight:300;
-    color: #013829;
+    color: red;
     font-family:'DM';
     font-style: italic;
 }
@@ -356,7 +356,7 @@ a h3:hover
 
 a:hover
 {
-    color: black;
+    color: red;
     text-decoration: none;
     font-weight:300;
     font-family:'DM';
@@ -371,7 +371,7 @@ a:hover
 }
 a
 {
-    color: black;
+    color: red;
 }
 
 .arrow{
@@ -381,13 +381,13 @@ a
 
 .collapsible {
   background-color: white;
-  color: #013829;
+  color: red;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid #013829;
+    border-bottom: 2px solid red;
       padding-top:0px;
     padding-bottom:0px;
     padding-left:15px;
@@ -405,7 +405,7 @@ a
   display: none;
   overflow: hidden;
   background-color: white;
-    border-bottom: 2px solid #013829;
+    border-bottom: 2px solid red;
     margin-top: -80px;
 }
 .pic
@@ -436,7 +436,7 @@ h1
     font-weight:300;
     font-size:56px;
     line-height: 64px;
-    color: #013829;
+    color: red;
     font-family:'DM';
     font-style: italic;
 }
@@ -478,7 +478,7 @@ h1
 #navbar a {
   float: left;
   display: block;
-  color: #013829;
+  color: red;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -499,28 +499,28 @@ h1
      font-size: 18px;
     line-height: 24px;
    font-weight:300;
-    color: #013829;
+    color: red;
     font-family:'DM';
     font-style: italic;
 }
 
     .headingborder
 {
-    border-bottom:2px solid #013829; 
-    border-top:2px solid #013829;
+    border-bottom:2px solid red; 
+    border-top:2px solid red;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid #013829; 
+    border-bottom:2px solid red; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
    
 }
@@ -532,7 +532,7 @@ h1
   width: 100%;
   display: block;
   transition: top 0.1s;
-border-bottom: 2px solid #013829;
+border-bottom: 2px solid red;
     background-color: white;
     z-index: 1000;
    padding-top: 0px;
@@ -589,13 +589,13 @@ border-bottom: 2px solid #013829;
 }
 .collapsible {
   background-color: white;
-  color: #013829;
+  color: red;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid #013829;
+    border-bottom: 2px solid red;
     padding-top:15px;
     padding-bottom:15px;
     padding-left:15px;
@@ -629,7 +629,7 @@ h1
     font-weight:300;
     font-size:69px;
     line-height: 76px;
-    color: #013829;
+    color: red;
     font-family:'DM';
     font-style: italic;
 }
@@ -663,7 +663,7 @@ h1
 #navbar a {
   float: left;
   display: block;
-  color: #013829;
+  color: red;
   text-align: left;
   padding-left: 15px;
   text-decoration: none;
@@ -682,27 +682,27 @@ h1
      font-size: 18px;
     line-height: 24px;
    font-weight:300;
-    color: #013829;
+    color: red;
     font-family:'NB';
 }
 
     .headingborder
 {
-    border-bottom:2px solid #013829; 
-    border-top:2px solid #013829;
+    border-bottom:2px solid red; 
+    border-top:2px solid red;
    border-bottom-width:2px;
     border-top-width:2px;
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
 
 }
 .headingborderbottom
 {
-    border-bottom:2px solid #013829; 
+    border-bottom:2px solid red; 
     
    border-bottom-width:2px;
     
-   border-bottom-color:#013829;
+   border-bottom-color:red;
    border-bottom-style: solid;
    
 }
@@ -712,9 +712,9 @@ h1
   position: fixed;
   top: 0;
   width: 100%;
-  display: #013829;
+  display: red;
   transition: top 0.1s;
-border-bottom: 2px solid #013829;
+border-bottom: 2px solid red;
     background-color: white;
     z-index: 1000;
     margin-top: -48px;
@@ -773,13 +773,13 @@ border-bottom: 2px solid #013829;
 }
     .collapsible {
   background-color: white;
-  color: #013829;
+  color: red;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-    border-bottom: 2px solid #013829;
+    border-bottom: 2px solid red;
    padding-top:20px;
     padding-bottom:20px;
     padding-left:15px;
