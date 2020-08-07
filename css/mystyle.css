@@ -76,6 +76,11 @@
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+
+
+
+
+
   .prev, .next,.text {font-size: 11px}
 }
 .cream
@@ -126,7 +131,7 @@
 
 .grey{
 
-    font-size:18px;
+    font-size:16px;
  
     
     font-family:'DM';
@@ -135,6 +140,12 @@
     margin-top: 10px;
     
    
+}
+
+a .grey:hover
+{
+    font-family:'DM';
+    font-style: normal;
 }
 
 .footer a
@@ -296,15 +307,19 @@ border-bottom: 2px solid #013829;
 h1
 {
     font-weight:300;
-    font-size:48px;
+    font-size:36px;
     line-height: 52px;
     color: #013829;
      font-family:'DM';
     font-style: italic;
 }
+
+
+
+
 h2
 {
-     font-size: 18px;
+     font-size: 16px;
     line-height: 21px;
    font-weight:300;
     color: #013829;
@@ -320,13 +335,36 @@ h3
      font-family:'DM';
     font-style: italic;
 }
+
+a h1:hover
+{
+    font-family:'DM';
+    font-style: normal;
+}
+
+a h2:hover
+{
+    font-family:'DM';
+    font-style: normal;
+}
+
+a h3:hover
+{
+    font-family:'DM';
+    font-style: normal;
+}
+
 a:hover
 {
     color: black;
     text-decoration: none;
     font-weight:300;
+    font-family:'DM';
     font-style: normal;
 }
+
+
+
 .underline
 {
     text-decoration: none;
