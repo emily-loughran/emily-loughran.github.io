@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+.js-loopItem {
+/*	background: rgb(242, 242, 246);*/
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 62%, rgba(0,0,0,1) 100%);
+}
+
+
+/*Typography*/
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+body {
+	font-family: 'DM Sans', sans-serif;
+	height: 100%;
+	overflow: hidden;
+	color: #A1A390;
+    background-color: black;
+}
+
+#Loadhere {
+height: 100vh;}
+
+h1 {
+	font-size: 22px !Important;
+	line-height: 38px !Important;
+	/* or 143% */
+	text-align: center !Important;
+	font-weight: 300;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important;
+}
+
+.emily{
+    position: fixed;
+    font-size:14px;
+    top:24px;
+    left:24px;
+    color: #E9C9B7;
+    line-height: 14px;
+}
+
+h2 {
+	font-size: 16px !Important;
+	line-height: 28px !Important;
+	/* or 150% */
+    color: #A1A390;
+/*	text-align: left !Important;*/
+	font-weight: 300;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 12px !Important;
+    line-height: 20px !Important;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important;
+}
+
+h4 {
+	font-size: 16px !Important;
+    color: #E9C9B7;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important;
+}
+
+
+ 
+
+.prev,
+.next,
+.text {
+	font-size: 11px !Important;
+}
+
+.numbertext {
+	color: black;
+	font-size: 12px !Important;
+	padding: 0px 15px !Important;
+	position: absolute !Important;
+	top: 52px !Important;
+}
+
+a {
+	color: #E9C9B7;
+    font-weight: 600;
+}
+a:hover {
+	color: #E9C9B7;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1.5px solid;
+    
+    padding-bottom: 1vh;
+   
+/*
+     border-right: 1.5px solid;
+    padding-right: -80px;
+*/
+    
+}
+
+
+
+ 
+/*landing*/
+
+.mywork {
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.aboutme {
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+
+.mywork h4,
+.aboutme h4 {
+	font-size: 8px !Important;
+	line-height: 10px;
+}
+
+
+/*about me*/
+
+.skill-block{
+    display: flex;
+    flex-direction: column;
+        margin-bottom:32px;
+}
+
+.skill-block p{
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width:50%;
+margin-right:16px;
+}
+.Projecttitles{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width:50%;
+margin-left:16px;
+}
+
+.baseline{align-items:baseline;}
+
+.bio {
+	width: calc(100% - 40px);
+	margin-left: 20px;
+}
+
+#about section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.abouttitle {
+	color: #616062;
+	align-self: center;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.filterDiv {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+section {
+	overflow: hidden;
+}
+
+
+/* filter */
+
+.btn {
+	border-top: solid 1.5px;
+    border-bottom: solid 1.5px;
+	outline: none;
+	padding: 8px 10px;
+	border-radius: 0px;
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+	display: block;
+/*    width: calc(50%);*/
+    align-items: center;
+    margin-left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E9C9B7;
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+	font-size: 12px
+}
+
+.openfilter {
+	border: solid 1px;
+	padding: 4px 10px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0);
+	cursor: pointer;
+	display: block;
+	width: calc(50% - 40px);
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 373px;
+	color: #616062;
+    text-decoration: none;
+}
+
+
+/* Add a light grey background on mouse-over */
+
+.btn:hover {
+	background-color: rgba(233,201,183,1);
+    color: black;
+    border-radius: 100px;
+    border: solid 1.5px;
+    text-decoration: none;
+    font-weight: 600;
+	font-size: 12px
+    
+}
+
+
+
+
+/* Add a dark background to the active button */
+
+.btn.active {
+	border: solid 1px;
+}
+
+.overlay {
+	height: 0;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, .9);
+	backdrop-filter: blur(5px);
+	overflow-x: hidden;
+    transition:500ms;
+
+}
+
+.filterbuttons {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.overlay-content {
+    height:100vh;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	font-weight: 100;
+	top: 24px;
+	right: 20px;
+	height: 20px;
+	width: 20px;
+	background-image: url(../img/SVG/Close.svg);
+	text-align: center;
+	
+}
+
+.filterlabel {
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	top: 45vh;
+	width: 30%;
+	height: 10vh;
+	z-index: 2;
+	cursor: pointer;
+	color: #616062;
+}
+
+
+/*work section*/
+
+.work section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.work
+{
+    
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+}
+
+.work .thumbnail {
+	border-radius: 1px;
+	width: 100%;
+}
+
+
+/*loop css*/
+
+.Loop {
+	height: 100vh;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+section {
+	position: relative;
+}
+
+
+/*Layout*/
+
+.block {
+	display: block;
+}
+
+inlineblock {
+	display: inline-block;
+}
+
+.flexbox {
+	display: flex;
+}
+
+.flex-stack {
+	flex-direction: column;
+}
+
+.center {
+	text-align: center!Important;
+}
+
+.vert-center {
+	align-items: center;
+}
+
+.hor-center {
+	justify-content: center;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.eloughran {
+	justify-content: space-between;
+}
+
+.landingscreen {
+	min-height: 180px;
+	width: 100%;
+	justify-content: center;
+	margin: auto;
+}
+
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+	display: none;
+}
+.skillheading{
+    width:calc(50vw-16px);
+}
+
+.subtext{
+    width:calc(50vw-16px);
+    font-size: 13px !Important;
+    line-height: 19px !Important;
+    color: #E9C9B7;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important; 
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    
+    .deskhide
+    {
+      display: none;  
+    } 
+    
+    .fixed
+{
+    position: fixed;
+    bottom:24px;
+    left:24px;
+}
+    .fixed_right{
+    position: fixed;
+    bottom:24px;
+    right:24px;}
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .btn {
+
+   margin-top: 175px;
+        margin-bottom: 175px;
+}
+    
+.skillheading{
+    width:25vw;
+}
+
+.subtext{
+    width:16vw;
+    font-size: 13px !Important;
+    line-height: 19px !Important;
+    color: #E9C9B7;
+	margin-block-start: 0em !Important;
+	margin-block-end: 0em !Important;
+	margin-inline-start: 0px !Important;
+	margin-inline-end: 0px !Important; 
+    
+}
+    
+h1 {
+	font-size: 48px !Important;
+	line-height: 70px !Important;
+}
+h2 {
+	font-size: 24px !Important;
+	line-height: 40px !Important;
+}
+   
+h3 {
+    color: #E9C9B7;
+    font-size: 14px !Important;
+    line-height: 21px !Important;
+}  
+    .fixed
+{
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left:24px;
+}
+    
+
+.reference
+    {
+        color: #E9C9B7;
+        align-self: center;
+        text-align: center;
+    }
+    .fixed_right
+{
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right:24px;
+}
+
+.skill-block{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:32px;
+}
+
+    
+
+    .mobhide
+    {
+      display: none;  
+    }
+ /* filter */
+.openfilter {
+display: none;
+}
+   
+    .pad_top
+    {padding-top: 12px;}
+    
+    /* filter */
+
+
+
+
+/* Add a dark background to the active button */
+
+.btn.active {
+	border: solid 1px;
+}
+
+.overlay {
+	height: auto;
+	position: static;
+	background-color: rgba(255, 255, 255, 0);
+    width: 83.333333vw;;
+    margin-left: 8.3333335vw;
+    border: solid 0px black;
+    border-radius: 0px;
+    transition: 0ms;
+}
+
+.filterbuttons {
+	display: flex;
+    position: relative;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 100%;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+}
+
+.overlay-content {
+    height: 586px;
+    width: 80vw;
+    justify-content: center;
+    }
+
+.overlay .closebtn {
+display:none;
+	
+}
+
+.filterlabel { display: none; }
+    
+
+
+
