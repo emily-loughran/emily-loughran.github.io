@@ -36,11 +36,12 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba
 .ele_2 {
  
   
-  animation: 2s fadeIn;
+  animation: 3s fadeIn;
   animation-fill-mode: forwards;
   
   visibility: hidden;
 }
+
 
 .ele_2:hover {
  
@@ -57,6 +58,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba
       opacity: 1;
   }
 }
+
 
 
 body {
@@ -96,7 +98,7 @@ h1 {
     left:30px;
     color: #E9C9B7;
     line-height: 14px;
-    font-weight:600;
+    font-weight:300;
 }
 a.emily:hover {
     text-decoration: none;
@@ -106,7 +108,7 @@ a.emily:hover {
 .loopwork{
     position: fixed;
     font-size:14px;
-    top:30px;
+    bottom:30px;
     right:30px;
     color: #E9C9B7;
     line-height: 14px;
@@ -528,12 +530,12 @@ margin-top:20px;}
 {
     position: fixed;
     bottom:30px;
-    left:30px;
+    right:30px;
 }
     .fixed_right{
     position: fixed;
     bottom:30px;
-    right:30px;
+    left:30px;
     }
 
 }
