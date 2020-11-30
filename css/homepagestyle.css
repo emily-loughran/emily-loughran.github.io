@@ -98,6 +98,11 @@ h1 {
     line-height: 14px;
     font-weight:600;
 }
+a.emily:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #A99386;
+}
 .loopwork{
     position: fixed;
     font-size:14px;
@@ -107,12 +112,26 @@ h1 {
     line-height: 14px;
     font-weight:600;
 }
-
+a.loopwork:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #A99386;
+}
 .download
 {
     color: #E9C9B7;
     font-weight:600;
     font-size:14px;
+}
+a.download:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #A99386;
+}
+a.contact:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #A99386;
 }
 .contact
 {
@@ -196,6 +215,7 @@ a.protitle:hover
 a:hover {
     text-decoration: none;
     opacity: 0.7;
+  
     
 }
 
