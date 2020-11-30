@@ -3,7 +3,7 @@
 
 .js-loopItem {
 /*	background: rgb(242, 242, 246);*/
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 62%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 ::selection {
@@ -53,8 +53,8 @@ h1 {
 .emily{
     position: fixed;
     font-size:14px;
-    top:24px;
-    left:24px;
+    top:30px;
+    left:30px;
     color: #E9C9B7;
     line-height: 14px;
     font-weight:600;
@@ -62,8 +62,8 @@ h1 {
 .loopwork{
     position: fixed;
     font-size:14px;
-    top:24px;
-    right:24px;
+    top:30px;
+    right:30px;
     color: #E9C9B7;
     line-height: 14px;
     font-weight:600;
@@ -468,13 +468,13 @@ margin-top:20px;}
     .fixed
 {
     position: fixed;
-    bottom:24px;
-    left:24px;
+    bottom:30px;
+    left:30px;
 }
     .fixed_right{
     position: fixed;
-    bottom:24px;
-    right:24px;
+    bottom:30px;
+    right:30px;
     }
 
 }
@@ -493,6 +493,9 @@ margin-top:20px;}
 {
     margin-bottom: 100px;
 }
+     .remove-padding{
+        padding:0px!Important;
+    }
 .about
     {
         margin-bottom: 150px;
