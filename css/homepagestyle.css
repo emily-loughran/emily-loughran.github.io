@@ -20,6 +20,45 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba
 
 }
 
+.ele {
+ 
+  
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
+.ele:hover {
+ 
+}
+
+.ele_2 {
+ 
+  
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
+.ele_2:hover {
+ 
+}
+
+
+@keyframes fadeIn {
+  50% {
+    visibility: hidden;
+    opacity:0;
+  }
+  100% {
+    visibility: visible;
+      opacity: 1;
+  }
+}
+
+
 body {
 	font-family: 'DM Sans', sans-serif;
 	height: 100%;
