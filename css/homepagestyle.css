@@ -6,14 +6,18 @@
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 62%, rgba(0,0,0,1) 100%);
 }
 
-
+::selection {
+  background: black; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: black; /* Gecko Browsers */
+}
 /*Typography*/
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
     position: relative;
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+
 }
 
 body {
@@ -27,6 +31,13 @@ body {
 #Loadhere {
 height: 100vh;}
 
+
+.thumbnail
+{
+    margin-top: 50px;
+    margin-bottom: 24px;
+}
+ 
 h1 {
 	font-size: 22px !Important;
 	line-height: 38px !Important;
@@ -46,11 +57,45 @@ h1 {
     left:24px;
     color: #E9C9B7;
     line-height: 14px;
+    font-weight:600;
+}
+.loopwork{
+    position: fixed;
+    font-size:14px;
+    top:24px;
+    right:24px;
+    color: #E9C9B7;
+    line-height: 14px;
+    font-weight:600;
+}
+
+.download
+{
+    color: #E9C9B7;
+    font-weight:600;
+    font-size:14px;
+}
+.contact
+{
+    color: #E9C9B7;
+    font-weight:600;
+    font-size:14px;
+}
+
+.work img{
+border-radius: 4px;
+height:auto;
+width: 100%;}
+
+.work
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h2 {
 	font-size: 16px !Important;
-	line-height: 28px !Important;
+	line-height: 24px !Important;
 	/* or 150% */
     color: #A1A390;
 /*	text-align: left !Important;*/
@@ -98,21 +143,20 @@ h4 {
 }
 
 a {
-	color: #E9C9B7;
-    font-weight: 600;
+	
+    transition:200ms;
+}
+a.protitle
+{
+    color: #A1A390;
+}
+a.protitle:hover
+{
+    
 }
 a:hover {
-	color: #E9C9B7;
-    font-weight: 600;
     text-decoration: none;
-    border-bottom: 1.5px solid;
-    
-    padding-bottom: 1vh;
-   
-/*
-     border-right: 1.5px solid;
-    padding-right: -80px;
-*/
+    opacity: 0.7;
     
 }
 
@@ -122,47 +166,38 @@ a:hover {
 /*landing*/
 
 .mywork {
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
 .aboutme {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	margin-top: 50px;
 }
 
 .mywork h4,
 .aboutme h4 {
-	font-size: 8px !Important;
+	font-size: 9px !Important;
 	line-height: 10px;
 }
-
+.about
+{
+    margin-top: 50px;
+    
+}
 
 /*about me*/
 
-.skill-block{
-    display: flex;
-    flex-direction: column;
-        margin-bottom:32px;
-}
-
-.skill-block p{
-}
+.inlinelinks{
+margin-right: 24px;}
 
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    width:50%;
-margin-right:16px;
-}
 .Projecttitles{
     display: flex;
     flex-direction: column;
     align-items: baseline;
     width:50%;
-margin-left:16px;
+
 }
 
 .baseline{align-items:baseline;}
@@ -173,15 +208,19 @@ margin-left:16px;
 }
 
 #about section {
-	margin-top: 100px;
-	margin-bottom: 100px;
+
+}
+
+.aboutsection
+{
+    margin-bottom: 50px;
 }
 
 .abouttitle {
 	color: #616062;
 	align-self: center;
     text-align: center;
-    padding-bottom: 56px;
+    
 }
 
 .filterDiv {
@@ -200,17 +239,19 @@ section {
 /* filter */
 
 .btn {
+/*
 	border-top: solid 1.5px;
     border-bottom: solid 1.5px;
-	outline: none;
+*/
+	outline: solid 1.7px;
 	padding: 8px 10px;
-	border-radius: 0px;
-	background-color: rgba(255, 255, 255, 0);
+	border-radius: 100px;
+	background-color: rgba(233,201,183,1);
 	cursor: pointer;
 	display: block;
 /*    width: calc(50%);*/
     align-items: center;
-    margin-left: 0px;
+    margin: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -243,9 +284,8 @@ section {
 
 .btn:hover {
 	background-color: rgba(233,201,183,1);
+    opacity: 70%;
     color: black;
-    border-radius: 100px;
-    border: solid 1.5px;
     text-decoration: none;
     font-weight: 600;
 	font-size: 12px
@@ -258,7 +298,7 @@ section {
 /* Add a dark background to the active button */
 
 .btn.active {
-	border: solid 1px;
+	
 }
 
 .overlay {
@@ -316,27 +356,12 @@ section {
 
 /*work section*/
 
-.work section {
-	margin-top: 100px;
-	margin-bottom: 100px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-.work
-{
-    
-	margin-top: 100px;
-	margin-bottom: 100px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
+
 }
 
-.work .thumbnail {
-	border-radius: 1px;
-	width: 100%;
-}
 
+.projectpreview{
+margin-top:100;}
 
 /*loop css*/
 
@@ -406,12 +431,9 @@ inlineblock {
 ::-webkit-scrollbar {
 	display: none;
 }
-.skillheading{
-    width:calc(50vw-16px);
-}
+
 
 .subtext{
-    width:calc(50vw-16px);
     font-size: 13px !Important;
     line-height: 19px !Important;
     color: #E9C9B7;
@@ -422,13 +444,25 @@ inlineblock {
     
 }
 
+.aboutli{
+margin-bottom:20px;
+margin-top:20px;}
+
 @media only screen and (max-width: 768px) {
 
     
+    .remove-padding{
+        padding:0px!Important;
+    }
+    
+    .reference{
+        margin-left: 0px;
+    }
     
     .deskhide
     {
-      display: none;  
+      display: none;
+        
     } 
     
     .fixed
@@ -440,7 +474,8 @@ inlineblock {
     .fixed_right{
     position: fixed;
     bottom:24px;
-    right:24px;}
+    right:24px;
+    }
 
 }
 
@@ -452,14 +487,28 @@ inlineblock {
 
    margin-top: 175px;
         margin-bottom: 175px;
+        
 }
-    
-.skillheading{
-    width:25vw;
+    .aboutsection
+{
+    margin-bottom: 100px;
+}
+.about
+    {
+        margin-bottom: 150px;
+    }
+ .work
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+} 
+.thumbnail
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .subtext{
-    width:16vw;
     font-size: 13px !Important;
     line-height: 19px !Important;
     color: #E9C9B7;
@@ -484,12 +533,14 @@ h3 {
     font-size: 14px !Important;
     line-height: 21px !Important;
 }  
+    
+ 
     .fixed
 {
-    position: fixed;
-    top: 50%;
-    transform: translate(0%, -50%);
+   position: fixed;
+    bottom:24px;
     left:24px;
+}
 }
     
 
@@ -498,20 +549,16 @@ h3 {
         color: #E9C9B7;
         align-self: center;
         text-align: center;
+        margin-bottom: 80px;
     }
     .fixed_right
 {
     position: fixed;
-    top: 50%;
-    transform: translate(0%, -50%);
-    right:24px;
+    bottom:24px;
+    right:24px;}
 }
 
-.skill-block{
-    display: flex;
-    flex-direction: row;
-    margin-bottom:32px;
-}
+
 
     
 
