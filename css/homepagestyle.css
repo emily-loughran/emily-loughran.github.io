@@ -78,6 +78,11 @@ height: 100vh;}
     margin-top: 50px;
     margin-bottom: 24px;
 }
+.thumbnailpro
+{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
  
 h1 {
 	font-size: 22px !Important;
@@ -108,7 +113,7 @@ a.emily:hover {
 .loopwork{
     position: fixed;
     font-size:14px;
-    bottom:30px;
+    top:30px;
     right:30px;
     color: #E9C9B7;
     line-height: 14px;
@@ -602,8 +607,8 @@ h3 {
     .fixed
 {
    position: fixed;
-    bottom:24px;
-    left:24px;
+    bottom:30px;
+    right:30px;
 }
 }
     
@@ -618,8 +623,8 @@ h3 {
     .fixed_right
 {
     position: fixed;
-    bottom:24px;
-    right:24px;}
+    bottom:30px;
+    left:30px;}
 }
 
 
