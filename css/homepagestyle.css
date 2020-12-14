@@ -527,6 +527,12 @@ margin-top:20px;}
         padding-bottom:0px!Important;
         padding-right:0px!Important;
     }
+   .remove-padding-2 {
+        padding-left:0px!Important;
+        padding-top:0px!Important;
+        padding-bottom:0px!Important;
+        padding-right:0px!Important;
+    }
     
     .reference{
         margin-left: 0px;
@@ -570,6 +576,13 @@ margin-top:20px;}
 }
      .remove-padding{
         padding-left:15px!Important;
+        padding-top:0px!Important;
+        padding-bottom:0px!Important;
+        padding-right:0px!Important;
+    }
+        .remove-padding-2
+    {
+        padding-left:0px!Important;
         padding-top:0px!Important;
         padding-bottom:0px!Important;
         padding-right:0px!Important;
