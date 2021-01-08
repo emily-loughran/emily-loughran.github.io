@@ -7,10 +7,10 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 37%, rgba
 }
 
 ::selection {
-  background: black; /* WebKit/Blink Browsers */
+  background: #F8675A; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: black; /* Gecko Browsers */
+  background: #F8675A; /* Gecko Browsers */
 }
 /*Typography*/
 
