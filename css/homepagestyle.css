@@ -7,10 +7,10 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 37%, rgba
 }
 
 ::selection {
-  background: #F8675A; /* WebKit/Blink Browsers */
+  background: #000000; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #F8675A; /* Gecko Browsers */
+  background: #000000; /* Gecko Browsers */
 }
 /*Typography*/
 
@@ -19,6 +19,30 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 37%, rgba
     width: 100%;
 
 }
+
+.flex{
+display: inline-flex;}
+
+.downloadicon, img{
+padding-right:10px;}
+
+
+
+.email,img
+{
+padding-left:10px;}
+
+.download-cv{
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    margin-top:6px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
 
 .ele {
  
@@ -101,21 +125,22 @@ h1 {
     font-size:14px;
     top:30px;
     left:30px;
+    letter-spacing: 0.2px;
     color: #E9C9B7;
     line-height: 14px;
-    font-weight:300;
+    font-weight:100;
     z-index: 1000;
 }
 a.emily:hover {
     text-decoration: none;
-    opacity: 0.7;
     color: #A99386;
 }
 .loopwork{
     position: fixed;
     font-size:14px;
+    letter-spacing: 0.2px;
     top:30px;
-    right:30px;
+    right:20px;
     color: #E9C9B7;
     line-height: 14px;
     font-weight:600;
@@ -126,23 +151,26 @@ a.loopwork:hover {
     opacity: 0.7;
     color: #A99386;
 }
+
+
 .download
 {
     color: #E9C9B7;
-    font-weight:600;
+    font-weight:100;
     font-size:14px;
     z-index: 1000;
+    padding: 8px;
+    letter-spacing: 0.2px;
+    margin:-8px;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
-a.download:hover {
-    text-decoration: none;
-    opacity: 0.7;
-    color: #A99386;
-}
-a.contact:hover {
-    text-decoration: none;
-    opacity: 0.7;
-    color: #A99386;
-}
+
+
+
+
 .contact
 {
     color: #E9C9B7;
@@ -185,7 +213,7 @@ h3 {
 	margin-inline-end: 0px !Important;
 }
 
-h4 {
+     {
 	font-size: 16px !Important;
     color: #E9C9B7;
 	margin-block-start: 0em !Important;
@@ -230,7 +258,11 @@ a:hover {
     
 }
 
-
+a.download:hover {
+    text-decoration: none;
+    opacity:0.7;
+    color:#AD978A;
+}
 
  
 /*landing*/
@@ -247,7 +279,7 @@ a:hover {
 
 .mywork h4,
 .aboutme h4 {
-	font-size: 9px !Important;
+	font-size: 10px !Important;
 	line-height: 10px;
 }
 .about
@@ -555,7 +587,9 @@ margin-top:20px;}
     position: fixed;
     bottom:30px;
     left:30px;
-        z-index: 1000;
+    z-index: 1000;
+        align-items: center;
+      
     }
 
 
@@ -657,8 +691,10 @@ h3 {
 {
     position: fixed;
     bottom:30px;
-    left:30px;
+    left:16px;
     z-index: 1000;
+   
+        
 }
 }
 
