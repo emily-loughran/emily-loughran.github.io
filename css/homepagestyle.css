@@ -152,7 +152,17 @@ a.loopwork:hover {
     color: #A99386;
 }
 
-
+.loopwork-2{
+    position: fixed;
+    font-size:14px;
+    letter-spacing: 0.2px;
+    top:30px;
+    right:140px;
+    color: #E9C9B7;
+    line-height: 14px;
+    font-weight:600;
+    z-index: 1000;
+}
 .download
 {
     color: #E9C9B7;
@@ -602,9 +612,7 @@ margin-top:20px;}
 
 @media only screen and (min-width: 768px) {
     
-    
-
-    
+   
     .btn {
 
    margin-top: 175px;
@@ -693,6 +701,7 @@ h3 {
     bottom:30px;
     left:16px;
     z-index: 1000;
+    
    
         
 }
