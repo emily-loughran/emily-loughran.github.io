@@ -120,6 +120,25 @@ h1 {
 	margin-inline-end: 0px !Important;
 }
 
+   .vertical { 
+            border-left: 1.8px solid;
+            color: #E9C9B7;
+            height: 36px; 
+            position:absolute; 
+            left: 50%; 
+            margin-top: 56px;
+        } 
+
+    .vertical_2 { 
+            border-left: 1.8px solid;
+            color: #E9C9B7;
+            height: 38px; 
+            position:absolute; 
+            left: 50%; 
+            margin-bottom: 63px;
+            
+        } 
+
 .emily{
     position: fixed;
     font-size:14px;
