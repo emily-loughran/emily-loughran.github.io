@@ -20,6 +20,29 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 37%, rgba
 
 }
 
+.elementToFadeInAndOut {
+/*
+    width:200px;
+    height: 200px;
+*/
+    
+    -webkit-animation: fadeinout 8s linear forwards;
+    animation: fadeinout 8s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+
+
 .flex{
 display: inline-flex;}
 
@@ -339,8 +362,16 @@ a.download-2:hover {
     opacity:1;
     color:white;
 }
-
- 
+.hovergrad{
+    
+    color: #C7C3C4;
+    background-color: aqua;
+}
+.hovergrad:hover{
+    opacity:0.7;
+    color: #6A6B6B;
+    background-color: aqua;
+}
 /*landing*/
 
 .mywork {
