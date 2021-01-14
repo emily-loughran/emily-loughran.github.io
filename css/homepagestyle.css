@@ -3,7 +3,7 @@
 
 .js-loopItem {
 /*	background: rgb(242, 242, 246);*/
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba(0,0,0,1) 100%);
+/*background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba(0,0,0,1) 100%);*/
 }
 
 ::selection {
@@ -150,7 +150,7 @@ h1 {
     position: fixed;
     font-size:14px;
     top:30px;
-    left:30px;
+    left:32px;
     letter-spacing: 0.2px;
     color: #E9C9B7;
     line-height: 14px;
@@ -171,7 +171,7 @@ a.emily:hover {
     font-size:14px;
     letter-spacing: 0.2px;
     top:30px;
-    right:20px;
+    right:29px;
     color: #E9C9B7;
     line-height: 14px;
     font-weight:600;
@@ -659,7 +659,7 @@ inlineblock {
 {
     position: fixed;
     bottom:30px;
-    right:24px;
+    right:31px;
     z-index: 1000;
     padding-left:8px;
     padding-right:8px;
@@ -710,7 +710,7 @@ margin-top:20px;}
 {
     position: fixed;
     bottom:30px;
-    right:24px;
+    right:31px;
     z-index: 1000;
     padding-left:8px;
     padding-right:8px;
@@ -737,7 +737,10 @@ margin-top:20px;}
     }
 
 
-
+.red
+    {
+        text-align: center;"
+    }
 
 
 }
