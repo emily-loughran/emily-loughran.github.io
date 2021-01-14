@@ -655,6 +655,27 @@ inlineblock {
     
 }
 
+    .fixed
+{
+    position: fixed;
+    bottom:30px;
+    right:24px;
+    z-index: 1000;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+   
+        .fixed:hover
+{
+   
+      background-color: black;
+    border-radius: 100px;
+    
+}
+
 .aboutli{
 margin-bottom:20px;
 margin-top:20px;}
@@ -689,13 +710,23 @@ margin-top:20px;}
 {
     position: fixed;
     bottom:30px;
-    right:30px;
+    right:24px;
     z-index: 1000;
     padding-left:8px;
-    padding-right:0px;
+    padding-right:8px;
     padding-top: 4px;
     padding-bottom: 4px;
+    
 }
+   
+        .fixed:hover
+{
+   
+      background-color: black;
+    border-radius: 100px;
+}
+   
+
     .fixed_right{
     position: fixed;
     bottom:30px;
