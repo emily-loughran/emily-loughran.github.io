@@ -306,14 +306,7 @@ h3 {
 	margin-inline-end: 0px !Important;
 }
 
-     {
-	font-size: 16px !Important;
-    color: #E9C9B7;
-	margin-block-start: 0em !Important;
-	margin-block-end: 0em !Important;
-	margin-inline-start: 0px !Important;
-	margin-inline-end: 0px !Important;
-}
+
 
 
  
@@ -653,6 +646,10 @@ inlineblock {
 	margin-inline-end: 0px !Important; 
     
 }
+ .image2
+    {
+       display: none; 
+    }
 
     .fixed
 {
@@ -930,6 +927,84 @@ h3 {
     font-size: 24px !Important;
     line-height: 40px !Important; 
     }
+ 
+    .image1
+    {
+       display: none; 
+    }
+    .image2
+    {
+        display: block;
+    }
     
+    .download{
+    
+    font-size:24px;
+    top:60px;
+    left:64px;
+    letter-spacing: 0.2px;
+    
+    line-height: 14px;
+    
+    padding-left:16px;
+    padding-right:0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+       .download-2{
+    
+    font-size:24px;
+    top:60px;
+    left:64px;
+    letter-spacing: 0.2px;
+    
+    line-height: 14px;
+    
+    padding-left:16px;
+    padding-right:0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+    
+    .loopwork{
+    position: fixed;
+    font-size:14px;
+    letter-spacing: 0.2px;
+    top:50px;
+    right:35px;
+ 
+    line-height: 14px;
+    
+    padding-left:8px;
+    padding-right:0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+    
+
+
+
+.loopwork-2{
+    position: fixed;
+    font-size:14px;
+    letter-spacing: 0.2px;
+    top:50px;
+    right:186px;
+    color: white;
+    line-height: 14px;
+    font-weight:600;
+    z-index: 1000;
+    padding-left:24px;
+    padding-right:0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  
+}
+  .fixed
+    {
+      bottom:50px;
+    right:39px;  
+    }
 }
 
