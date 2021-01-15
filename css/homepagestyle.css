@@ -648,11 +648,11 @@ inlineblock {
 }
  .image2
     {
-       display: none; 
+       display: none !Important; 
     }
 .image1
 {
-    display:block;
+    display:block !Important;
 }
 
     .fixed
@@ -934,11 +934,11 @@ h3 {
  
     .image1
     {
-       display: none; 
+       display: none !Important; 
     }
     .image2
     {
-        display: block;
+        display: block !Important;
     }
     
     .download{
