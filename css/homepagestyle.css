@@ -650,6 +650,10 @@ inlineblock {
     {
        display: none; 
     }
+.image1
+{
+    display:block;
+}
 
     .fixed
 {
