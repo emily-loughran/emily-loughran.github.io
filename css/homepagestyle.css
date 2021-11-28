@@ -424,10 +424,10 @@ margin-right: 24px;}
     margin-top: 400px;
     color: #9C9899;
     
-        bottom: 40px;
+        bottom: 160px;
         position:absolute;
     width:100%;
-    bottom:0px;
+    
 }
 
 #about section {
@@ -512,6 +512,7 @@ section {
     text-decoration: none;
     font-weight: 600;
 	font-size: 12px
+        
     
 }
 
@@ -715,7 +716,7 @@ margin-top:20px;}
         bottom: 40px;
         position:absolute;
     width:100%;
-    bottom:0px;
+    bottom:120px;
     }
     .remove-padding{
         padding-left:0px!Important;
