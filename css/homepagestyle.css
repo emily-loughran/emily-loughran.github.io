@@ -115,7 +115,7 @@ body {
 	font-family: 'Syne';
 	height: 100%;
 	overflow: hidden;
-	color: #FF4F72;
+	color: #D8BFD8;
     background-color: black;
     
 }
@@ -144,9 +144,10 @@ h1 {
 	/* or 143% */
 	text-align: left !Important;
 	font-weight: 300;
-    color: #FF1847;
+    color: #D8BFD8;
 	
 }
+
 
 .emily{
     position: fixed;
@@ -203,19 +204,22 @@ a.loopwork:hover {
 {
     top: 30px;
     font-size: 16px;
-    color: #FF1847;
+    color: #D8BFD8;
 
 }
 
 a
 {
-    color: #FF1847;
+    color: #D8BFD8;
+    
 }
 
 a:hover
 {
-    color: #FF4F72;
-    text-decoration: underline;
+    color: #C3B1E1;
+    
+   
+
 }
 .loopwork-2{
     position: fixed;
@@ -253,7 +257,7 @@ a:hover
 }
 .download
 {
-    color: #FF4F72;
+    color: #D8BFD8;;
     font-weight:100;
     font-size:14px;
     z-index: 1000;
@@ -286,7 +290,7 @@ a:hover
 
 .contact
 {
-    color: #FF4F72;
+    color: #D8BFD8;;
     font-weight:600;
     font-size:14px;
     z-index: 1000;
@@ -315,7 +319,7 @@ h2 {
 
 h3 {
 	font-weight: 300;
-    color: #FF4F72;
+    color: #D8BFD8;;
 	font-size: 12px !Important;
     line-height: 20px !Important;
 	
@@ -401,7 +405,14 @@ a.download-2:hover {
     margin-top: 50px;
     
 }
-
+ .bio-2
+    {
+      bottom: -136px;
+        position:absolute;
+        right:24px;
+    
+    
+    }
 /*about me*/
 
 .inlinelinks{
@@ -428,6 +439,10 @@ margin-right: 24px;}
         position:absolute;
     width:100%;
     
+}
+.cv
+{
+    margin-right: 16px;
 }
 
 #about section {
@@ -462,56 +477,29 @@ section {
 /* filter */
 
 .btn {
-/*
-	border-top: solid 1.5px;
-    border-bottom: solid 1.5px;
-*/
-	outline: solid 1.7px;
-	padding: 8px 10px;
-	border-radius: 100px;
-	background-color: rgba(233,201,183,1);
+
+	outline: solid 2px;
+	padding: 8px 12px;
 	cursor: pointer;
-	display: block;
-/*    width: calc(50%);*/
     align-items: center;
-    margin: 100px;
-	display: flex;
+    margin: 16px;
 	justify-content: center;
 	align-items: center;
-	color: #E9C9B7;
+	color: #D8BFD8;
     align-self: center;
-    text-align: center;
-    font-weight: 600;
-	font-size: 12px
+	font-size: 14px;
+    
+    
 }
 
-.openfilter {
-	border: solid 1px;
-	padding: 4px 10px;
-	border-radius: 8px;
-	background-color: rgba(255, 255, 255, 0);
-	cursor: pointer;
-	display: block;
-	width: calc(50% - 40px);
-	margin-left: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 373px;
-	color: #616062;
-    text-decoration: none;
-}
 
 
 /* Add a light grey background on mouse-over */
 
 .btn:hover {
-	background-color: rgba(233,201,183,1);
-    opacity: 70%;
+	background-color: #D8BFD8;
     color: black;
-    text-decoration: none;
-    font-weight: 600;
-	font-size: 12px
+  
         
     
 }
@@ -707,16 +695,24 @@ margin-top:20px;}
     font-size: 16px;
     padding-left: 40px;
    padding-bottom: 30px;
+    padding-right: 16px;
 
 
 }
     
     .bio
     {
-        bottom: 40px;
+        
         position:absolute;
     width:100%;
-    bottom:120px;
+    
+    }
+    .bio-2
+    {
+        bottom: 16px;
+        position:absolute;
+    
+    
     }
     .remove-padding{
         padding-left:0px!Important;
@@ -785,12 +781,7 @@ margin-top:20px;}
 @media only screen and (min-width: 768px) {
     
    
-    .btn {
-
-   margin-top: 175px;
-        margin-bottom: 175px;
-        
-}
+ 
     .aboutsection
 {
     margin-bottom: 100px;
@@ -882,7 +873,14 @@ h3 {
 
 
 
+   .bio-2
+    {
+      bottom: -136px;
+        position:absolute;
+        right:24px;
     
+    
+    } 
 
     .mobhide
     {
@@ -903,9 +901,7 @@ display: none;
 
 /* Add a dark background to the active button */
 
-.btn.active {
-	border: solid 1px;
-}
+
 
 .overlay {
 	height: auto;
