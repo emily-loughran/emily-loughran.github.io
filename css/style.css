@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'AreaInktrapTrial-Bold';
   src: url('AreaInktrapTrial-Bold') format ('opentype'); 
   font-weight: bold;
@@ -7,7 +7,7 @@
   font-family: 'AreaInktrap-Bold';
   src: url('AreaInktrap-Bold') format ('opentype'); 
   font-weight: bold;
-}
+}*/
 
 body {
     background-color: #333333;
@@ -21,7 +21,7 @@ nav{
     padding-right: 40px; 
     color: #F0DDEB;
     font-family: sans-serif;
-    font-family: 'AreaInktrapTrial-Bold';
+    /*font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
 }
 footer
@@ -30,7 +30,7 @@ footer
     padding-right: 40px; 
     color: #F0DDEB;
     font-family: sans-serif;
-    font-family: 'AreaInktrapTrial-Bold';
+    /*font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ h1
     font-size: 21px;
     font-family: sans-serif;
     line-height: 1.5;
-    font-family: 'AreaInktrapTrial-Bold';
+   /* font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
 }
 h2
@@ -82,7 +82,7 @@ h2
     font-size: 64px;
     font-family: sans-serif;
     line-height: 1.1;
-    font-family: 'AreaInktrap-Bold';
+    /*font-family: 'AreaInktrap-Bold';*/
     font-weight: bold;
     color: #333333; 
 }
@@ -93,7 +93,7 @@ h3
     font-size: 21px;
     font-family: sans-serif;
     line-height: 1.5;
-    font-family: 'AreaInktrapTrial-Bold';
+    /*font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
 }
 p
@@ -101,7 +101,7 @@ p
     font-size: 21px;
     font-family: sans-serif;
     line-height: 1.5;
-    font-family: 'AreaInktrapTrial-Bold';
+    /*font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
 }
 a
@@ -126,7 +126,7 @@ a
 }
 .italic
 {
-   font-family: 'AreaInktrapTrial-Bold';
+   /*font-family: 'AreaInktrapTrial-Bold';*/
     font-weight: bold;
     font-size: 21px;
     opacity: 0.7;
