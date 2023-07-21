@@ -1,13 +1,11 @@
-/*@font-face {
+@font-face {
   font-family: 'AreaInktrapTrial-Bold';
   src: url('AreaInktrapTrial-Bold') format ('opentype'); 
   font-weight: bold;
-}*/
+}
 
 body {
     background-color: #333333;
-    margin-left: 0px;
-    margin-right: 0px;
     
 }
 
@@ -36,7 +34,9 @@ footer
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 8px;
-    margin-bottom: 2px;   
+    margin-bottom: 2px; 
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*.project-card-feature
