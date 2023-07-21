@@ -12,9 +12,9 @@
 @font-face {
   font-family: 'Area-Inktrap';
   src:
-       url('https://eloughran.com/fonts/Area-Inktrap/AreaInktrap-Bold.woff') format('woff'),
-       url('https://eloughran.com/fonts/Area-Inktrap/AreaInktrap-Bold.woff')  format('opentype'), 
-       url('https://eloughran.com/fonts/Area-Inktrap/AreaInktrap-Bold.woff')  format('woff2'),
+       url('/fonts/AreaInktrap-Bold.woff') format('woff'),
+       url('/fonts/Area-Inktrap/AreaInktrap-Bold.woff')  format('opentype'), 
+       url('/fonts/Area-Inktrap/AreaInktrap-Bold.woff')  format('woff2'),
 }
 
 body {
