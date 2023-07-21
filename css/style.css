@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: 'AreaInktrapTrial-Bold';
   src: url('AreaInktrapTrial-Bold') format ('opentype'); 
   font-weight: bold;
@@ -7,7 +7,7 @@
   font-family: 'AreaInktrap-Bold';
   src: url('AreaInktrap-Bold') format ('opentype'); 
   font-weight: bold;
-}*/
+}
 
 body {
     background-color: #333333;
@@ -126,7 +126,7 @@ a
 }
 .italic
 {
-   /*font-family: 'AreaInktrapTrial-Bold';*/
+   font-family: 'AreaInktrapTrial-Bold';
     font-weight: bold;
     font-size: 21px;
     opacity: 0.7;
