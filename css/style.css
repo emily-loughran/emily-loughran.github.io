@@ -2,16 +2,15 @@
 
 @font-face {
 font-family:'AreaInktrap-Bold';
-  src: url(../fonts/AreaInktrap-Bold.woff);
+src: url(../fonts/AreaInktrap-Bold.woff);
 }
 
 body {
     background-color: #333333;
     margin-left: 0px;
     margin-right: 0px;
-    font-weight: bold;
-    font-family:'AreaInktrap-Bold', Helvetica, Arial, sans-serif; 
-
+    font-weight: 400;
+    font-family:'AreaInktrap-Bold', Arial, sans-serif; 
 }
 
 nav{
@@ -65,12 +64,14 @@ h1
 {
     font-size: 21px;
     line-height: 1.5;
+    font-weight: 500;
 }
 h2
 {
     font-size: 64px;
     line-height: 1.1;
-    color: #333333; 
+    color: #333333;
+    font-weight: 500;
 }
 
 
@@ -78,11 +79,13 @@ h3
 {
     font-size: 21px;
     line-height: 1.5;
+    font-weight: 500;
 }
 p
 {
     font-size: 21px;
     line-height: 1.5;
+    font-weight: 500;
 
 }
 a
