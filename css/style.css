@@ -139,7 +139,7 @@ a:hover::before {
 
 a::before {
   content: '';
-  background-color: hsla(180, 33%, 70%, .90);
+  background-color: hsla(180, 33%, 70%, .99);
   position: absolute;
   left: 0;
   bottom: 3px;
