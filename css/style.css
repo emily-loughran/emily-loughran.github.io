@@ -44,8 +44,6 @@ body {
     background-attachment: fixed; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 0px;
-    margin-right: 0px;
     font-weight: 400;
     font-family:'AreaInktrap-Bold', Arial, sans-serif;
     margin-left: 0%;
@@ -166,8 +164,6 @@ h4
     background-attachment: fixed; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 0px;
-    margin-right: 0px;
     font-weight: 400;
     font-family:'AreaInktrap-Bold', Arial, sans-serif;
     margin-left: 4%;
@@ -263,13 +259,13 @@ h3
 }
 h4
 {
-    font-size: 32px;
+    font-size: 21px;
     line-height: 1.5;
     font-weight: 500;
     color: #151515;
     position: fixed;
     right:4%;
-    top:2.1%;
+    top:6%;
 }
 
 
