@@ -726,8 +726,15 @@ section .large-image img {
         margin-left: 40px;
     }
     
-     
-
+ .image-gallery {
+  display: grid;
+  grid-template-columns: auto;
+    column-gap: 20px;
+} 
+    
+    .image-gallery-space {
+        margin-bottom: 20px;
+    }
     
 .project-detail img {
     width: 100vw;
