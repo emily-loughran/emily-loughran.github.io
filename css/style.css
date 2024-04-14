@@ -4,6 +4,16 @@
     font-weight:100;
     }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #84B799;
+}
+
+::selection {
+  color: black;
+  background: #84B799;
+}
+
 body {
     font-family:'AreaInktrap-Bold'; 
     color:#222222;
@@ -28,7 +38,7 @@ p {
 
 
 h1 {
-    font-size: 127px;
+    font-size: 96px;
     line-height: 1.1;
     font-weight:100;
 }
@@ -273,15 +283,16 @@ nav a {
 .card-small {
     background-color: #fff;
     overflow: hidden;
-    padding-right: 40px;
+/*    padding-right: 40px;*/
     transition: background-color 0.6s ease;
+    text-align: center;
     
 }
 
 .card-small img {
-    width:33.3vw;
+    width:33.333vw;
     height: auto;
-    float: right;
+/*    float: right;*/
     margin-bottom: 40px;
     object-fit: cover;
 }
@@ -388,11 +399,17 @@ a .card-small:active {
 }
 
 .contact {
+/*
     background-color: #FAF7F7;
-    margin-left: -120px;
-    padding-left: 120px;
+    margin-left: -80px;
+    padding-left: 80px;
     padding-bottom: 20px;
     padding-top: 20px;
+*/
+}
+
+.contact a:hover {
+    border-bottom: 0px;
    
 }
 
