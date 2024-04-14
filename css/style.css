@@ -416,7 +416,8 @@ a .card-small:active {
 
 footer {
     background-color: #222222;
-    padding-top: 80px;
+    padding-top: 0px;
+    padding-bottom: 40px;
     color: #E9E4EA;
     padding-left: 40px;
     padding-right: 0px;
