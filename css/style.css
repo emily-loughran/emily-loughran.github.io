@@ -543,6 +543,7 @@ footer a {
   display: grid;
   grid-template-columns: auto auto;
     column-gap: 20px;
+    grid-row-gap: 20px;
 }
 .image-gallery .image, .image-gallery .image img{
     display: flex;
