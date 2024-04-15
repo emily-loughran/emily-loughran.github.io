@@ -670,11 +670,12 @@ section .large-image img {
 }
     
       footer h4 {
-    width: 100%; 
+    width: 100%;
+          font-size: 20px;
 }
      footer .contact-links {
     width: 100%;
-         font-size: 17px;
+         font-size: 16px;
          
           
 }
@@ -736,7 +737,7 @@ section .large-image img {
     }
     
     .inline-tag {
-        font-size: 17px;
+        font-size: 16px;
     }
     
      .project-header .tag {
