@@ -271,14 +271,21 @@ nav a {
     transition: background-color 0.6s ease;
 }
 
-.next-project-card p {
+.next-project-card h3 {
     font-size: 127px;
     line-height: 1.1;
     font-weight:100;
      text-indent: 0px;
     margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 80px;
 }
 
+  .next-project-card p {
+    font-size: 40px;
+    margin-left: 40px;
+      text-indent: 0px;
+}
 
 .card-small {
     background-color: #fff;
@@ -432,7 +439,7 @@ footer h4 {
 }
 footer a {
    float: right;
-    margin-left: 20px;
+    margin-left: 30px;
 /*    margin-left: 40px;*/
     color: #DFD7E0;
     
@@ -473,9 +480,7 @@ footer a {
     padding-bottom: 8px;
 }
 
-.project-detail h3 {
-    
-}
+
 
 .info p {
     font-size: 28px;
@@ -528,6 +533,11 @@ footer a {
     padding: 56px 0px 20px 0px;
 }
 
+.heading {
+   font-size: 20px;
+    padding: 56px 0px 20px 0px;
+}
+
 
 .image-gallery {
   display: grid;
@@ -573,6 +583,7 @@ section .large-image img {
     margin-right: 16px;
     font-size: 16px;
 }
+ 
     
     .hide {
         display: none;
@@ -585,7 +596,11 @@ section .large-image img {
 
 @media (max-width: 620px) {
     
-
+   header {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right:20px;
+}
     
     
     .info p {
@@ -605,12 +620,9 @@ section .large-image img {
     }
     
     .card h3{
-     font-size: 40px;   
+     font-size: 40px; padding-bottom: -40px;   
     }
     
-    .card h3{
-     padding-bottom: -40px;   
-    }
     
     .featured-content-projects {
         grid-template-columns: auto;
@@ -618,10 +630,16 @@ section .large-image img {
     
     .featured-content-about h3 {
         font-size: 28px;
+        margin-left: 20px;
+    margin-right: 20px;
     }
     
     
-   
+    
+    
+    .link {
+        margin-right: 20px;
+    }
     
     .card-small img {
         object-fit: cover;
@@ -631,6 +649,11 @@ section .large-image img {
     
     .card-small tag {
         text-indent: 0px;
+    }
+    
+     .card-small h2 {
+        margin-left: 20px;
+         margin-right: 20px;
     }
     
     
@@ -643,30 +666,32 @@ section .large-image img {
     
 
 
-.next-project-card p {
+.next-project-card h3 {
     font-size: 40px;
-    line-height: 1.1;
-    font-weight:100;
-    text-indent: 0px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
-    .hero
-    {
-        margin-bottom: 0px;
-    }
+    .next-project-card p {
+    font-size: 24px;
+    margin-left: 20px;
+}
+   
     
     .hero p {
       font-size: 40px;   
     }
     
      .hero-about p {
-      font-size: 40px;   
+      font-size: 40px;
     }
+    
+   
     
    footer {
   overflow: auto; 
-       padding-right: 40px;
+       padding-right: 20px;
+       padding-left: 20px;
+       padding-bottom: 0px;
 }
     
       footer h4 {
@@ -679,6 +704,8 @@ section .large-image img {
          
           
 }
+    
+  
     
     
     header nav a {
@@ -708,7 +735,7 @@ section .large-image img {
   
   
     .info {
-        padding-left: 40px;
+        padding-left: 20px;
     
     }
       
@@ -720,7 +747,10 @@ section .large-image img {
     background-color: white;
     text-align: center;
 }
-    
+
+    .project-header h1, h2 {
+    margin-left: 20px;
+}
 
 
 .project-header img {
@@ -732,7 +762,7 @@ section .large-image img {
 }
     .tag {
         
-        margin-right: 40px;
+        margin-right: 20px;
         text-indent: 0px;
     }
     
@@ -742,7 +772,7 @@ section .large-image img {
     
      .project-header .tag {
         
-        margin-left: 40px;
+        margin-left: 20px;
     }
     
  .image-gallery {
@@ -766,13 +796,13 @@ section .large-image img {
 .project-detail p {
     font-size: 20px;
     margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
     
     .project-detail h2 {
     font-size: 24px;
-        margin-left: 40px;
+        margin-left: 20px;
 }
 
     .project-detail h3 {
@@ -780,6 +810,26 @@ section .large-image img {
     }
 
 
+ .project-detail h3 {
+    margin-left: 20px;
+}   
+    
+  .hero
+    {
+        margin-bottom: 0px;
+    } 
 
+    .featured-content h2 {
+   margin-left: 20px;
+    margin-right: 20px;   
+}
+    
+ .heading {
+   font-size: 20px;
+    padding: 8px 0px 20px 0px;
+}
+
+    
+    
 }
     
