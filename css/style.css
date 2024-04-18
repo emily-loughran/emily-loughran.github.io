@@ -14,6 +14,15 @@
   background: #84B799;
 }
 
+/* Setting fade transition and default settings */
+
+
+
+
+
+
+
+
 body {
     font-family:'AreaInktrap-Bold'; 
     color:#222222;
@@ -22,7 +31,33 @@ body {
     margin: 0;
     font-size: 20px;
     line-height: 1.5;
+  transition: background-color 1s ease;
 }
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+/* colours */
+
+.color-indigo {
+  background-color: #C4B6C4;
+}
+.color-blue {
+  background-color: #222222;
+}
+
+
+.color-yellow {
+  background-color: #DFD7E0;
+}
+
 
 a {
     text-decoration: none;
@@ -288,7 +323,7 @@ nav a {
 }
 
 .card-small {
-    background-color: #fff;
+/*    background-color: #fff;*/
     overflow: hidden;
 /*    padding-right: 40px;*/
     transition: background-color 0.6s ease;
@@ -300,7 +335,7 @@ nav a {
     width:33.333vw;
     height: auto;
 /*    float: right;*/
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     object-fit: cover;
 }
 
@@ -558,7 +593,9 @@ section .large-image img {
     margin-bottom: 10px;
 }
 
-
+.white{
+  color: #DFD7E0;
+}
 
 
 @media (max-width: 1100px) {
