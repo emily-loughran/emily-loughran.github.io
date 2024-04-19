@@ -32,13 +32,13 @@
           </div>
         </header>
              <section class="project-header">
-                <img src="images/macbook-air-mockup-2023_BtoA.jpg">
+                <img src="images/handheld-ipad-photo-mockup_BtoA.jpg">
                 <h1>Business to Arts</h1>
-                 <h2 class="selected">Website</h2><P class="tag">Winner of Digital Design: New website, IDI Awards 2023</P>
+                 <h2 class="selected">Website</h2>
                 
         </section>
             <section class="project-detail">
-               <h3>Business to Arts needed a website that communicated their professionalism and expertise. Along with being able to handle their growing portfolio of case studies, it  needed to clarify what they do, ultimately helping to grow memberships. All work was completed at Path.</h3>
+               <h3>Business to Arts needed a website that communicated their professionalism and expertise. Along with being able to handle their growing portfolio of case studies, it  needed to clarify what they do, ultimately helping to grow memberships. All work was completed at Path.<br><br>This website won Best New Website at IDI Awards 2023.</h3>
                 
         
         <h2>Role</h2>
@@ -54,35 +54,42 @@
                 
         </section>
         
-        <section class="images">
+      <section class="images">
+      <div class="panel" data-color="white">
         <div class="large-image">
-<img src="images/BtoA_01.jpg">
-
-</div>
+          <img src="images/BtoA_01.jpg">
+        </div>
+      </div>
+      <div class="panel" data-color="black">
+        <div class="med-image">
+          <img src="images/BtoA_02.jpg">
+        </div>
+      </div>
+      <div class="panel" data-color="black">
+        <div class="large-image">
+          <img src="images/BtoA_03.jpg">
+        </div>
+         
+      </div>
         
-        <div class="image-gallery">
-  <div class="image"><img src="images/BtoA_02.jpg" class="image-gallery-space"></div>
-            <div class="image"><img src="images/BtoA_03.jpg" class="image-gallery-space"></div>
-            
-</div>
-        
-         <div class="large-image">
-<img src="images/BtoA_04.jpg">
-
-</div>
-        
-    </section> 
+        <div class="panel" data-color="white">
+        <div class="med-image">
+          <img src="images/BtoA_04.jpg">
+        </div>
+      </div>
+         
+    </section>
         
           <section class="next-project">
             
             
- <h2 class="heading-small">Next project</h2>
+ <h2 class="heading-small">Latest project</h2>
 
-        <a href="irish-chamber-orchestra.html">
+        <a href="culture-date-with-dublin-8.html">
           <div class="next-project-card">
             
-                  <h3>Irish Chamber Orchestra</h3>
-              <p class="selected">Website and Brand refresh</p>
+                  <h3>Culture Date with Dublin&nbsp;8</h3>
+              <p class="selected">Website</p>
               
               </div>
             </a>
@@ -113,6 +120,30 @@
             </div>
             
         </footer>
+        <script>
+      $(window).scroll(function() {
+        // selectors
+        var $window = $(window),
+          $body = $('body'),
+          $panel = $('.panel');
+        // Change 33% earlier than scroll position so colour is there when you arrive.
+        var scroll = $window.scrollTop() + ($window.height() / 3);
+        $panel.each(function() {
+          var $this = $(this);
+          // if position is within range of this panel.
+          // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+          // Remember we set the scroll to 33% earlier in scroll var.
+          if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+            // Remove all classes on body with color-
+            $body.removeClass(function(index, css) {
+              return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+            });
+            // Add class of currently active div
+            $body.addClass('color-' + $(this).data('color'));
+          }
+        });
+      }).scroll();
+    </script>
       
     </body> 
 </html>

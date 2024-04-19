@@ -4,21 +4,6 @@
     font-weight:100;
     }
 
-::-moz-selection { /* Code for Firefox */
-  color: black;
-  background: #84B799;
-}
-
-::selection {
-  color: black;
-  background: #84B799;
-}
-
-/* Setting fade transition and default settings */
-
-
-
-
 
 
 
@@ -46,15 +31,15 @@ body {
 
 /* colours */
 
-.color-indigo {
+.color-mauve {
   background-color: #C4B6C4;
 }
-.color-blue {
+.color-black {
   background-color: #222222;
 }
 
 
-.color-yellow {
+.color-lavender {
   background-color: #DFD7E0;
 }
 
@@ -128,6 +113,7 @@ header a:hover {
 nav {
 float: right;
     padding-top: 14px;
+    padding-bottom: 20px;
 }
 .breadcrumb, .breadcrumb a {
     display: flex;
@@ -177,7 +163,7 @@ nav a {
 
 .project-header img {
     width:66.6vw;
-    margin-bottom: -48px;
+    margin-bottom: -20px;
     height: auto;
     text-align: center;
     object-fit: cover;
@@ -326,16 +312,16 @@ nav a {
 /*    background-color: #fff;*/
     overflow: hidden;
 /*    padding-right: 40px;*/
-    transition: background-color 0.6s ease;
+    transition: background-color 1s ease;
     text-align: center;
     
 }
 
 .card-small img {
-    width:33.333vw;
+    width:40vw;
     height: auto;
 /*    float: right;*/
-    margin-bottom: 20px;
+    
     object-fit: cover;
 }
 
@@ -406,7 +392,7 @@ a .card-small:active {
     margin-left: 40px;
     padding-top: 40px;
     padding-bottom: 20px;
-    max-width: 900px;
+    max-width: 1000px;
     font-size: 40px;
 }
 
@@ -593,6 +579,13 @@ section .large-image img {
     margin-bottom: 10px;
 }
 
+section .med-image img {
+    
+    width: 66.666vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .white{
   color: #DFD7E0;
 }
@@ -743,8 +736,7 @@ section .large-image img {
           
 }
     
-  
-    
+   
     
     header nav a {
         font-size: 20px;
@@ -819,9 +811,7 @@ section .large-image img {
     column-gap: 20px;
 } 
     
-    .image-gallery-space {
-        margin-bottom: 20px;
-    }
+    
     
 .project-detail img {
     width: 100vw;
@@ -867,7 +857,35 @@ section .large-image img {
     padding: 8px 0px 20px 0px;
 }
 
+    .panel {
+  /* min height incase content is higher than window height */
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
     
     
 }
     
+
+@media (min-width: 1600px)
+    
+{
+    h1 {
+        
+        font-size: 160px;
+    }
+    
+    .hero p {
+       font-size: 160px; 
+        
+    }
+    
+    .hero-about p {
+       font-size: 160px; 
+        
+    }
+    
+}
