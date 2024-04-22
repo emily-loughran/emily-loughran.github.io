@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Emily Loughran • Visual Designer</title>
+    <!--       this is my favicon-->
+    <!-- <link rel="shortcut icon" type="image/png" href="" style="">-->
+    <!--       this is my favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" style="">
+    <meta name="description" content="Experienced and award winning Visual Designer, bringing a trained eye and enthusiasm to any design challenge.">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="google-site-verification" content="WZunpj7S4iXu6vR9xobzbOa4rEAZXZBuZMJx0RJAxz4" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="projects.html" class="selected">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="breadcrumb">
+        <p>
+          <a href="index.html">Home</a>
+        </p>
+        <p>▸</p>
+        <p>
+          <a href="projects.html" class="hide">Projects</a>
+        </p>
+        <p class="hide">▸</p>
+        <p class="current-page">Dance Ireland: Dance Counts</p>
+      </div>
+    </header>
+    <section class="project-header">
+      <img src="images/Letterhead-Mockup_DI.jpg">
+      <h1>Dance Ireland: Dance Counts</h1>
+      <h2 class="selected">Campaign Identity</h2>
+    </section>
+    <section class="project-detail">
+      <h3>Dance Ireland completed a major research study and needed a sub-brand to both attract attention and reinforce their domain as leaders in the Irish Dance industy. It needed to be simple enough for the client to create assets in-house. All work was completed at Path.</h3>
+      <h2>Role</h2>
+      <p>Visual Designer</p>
+      <!--
+        <h2>Key responsibilities</h2><p>• Workshop facilitation<br>• Post-workshop analysis<br>• Concept design<br>• Design development of website templates<br>• Proofing and testing<br>• Facilitating client CMS training<br>• Website pre-launch testing</p>
+-->
+    </section>
+    <section class="images">
+      <div class="panel" data-color="white">
+        <div class="large-image">
+          <img src="images/DI_01.jpg">
+        </div>
+      </div>
+      <div class="panel" data-color="black">
+        <div class="med-image">
+          <img src="images/DI_03.jpg">
+        </div>
+      </div>
+      <div class="panel" data-color="white">
+        <div class="large-image">
+          <img src="images/DI_02.jpg">
+        </div>
+         
+      </div>
+         
+    </section>
+      
+      
+    <section class="next-project">
+      <h2 class="heading-small">Latest project</h2>
+      <a href="culture-date-with-dublin-8.html">
+        <div class="next-project-card">
+          <h3>Culture Date with Dublin&nbsp;8</h3>
+          <p class="selected">Website</p>
+        </div>
+      </a>
+    </section>
+    <!--
+        
+          <div class="back-link"><a href="projects.html">Back to Projects
+              </a></div>
+-->
+    <footer>
+      <h4>Emily Loughran</h4>
+      <div class="contact-links">
+        <a href="https://www.100archive.com/designers/emily-loughran" target=”_blank”>
+          <p>100 Archive</p>
+        </a>
+        <a href="https://www.linkedin.com/in/emily-loughran-843b7594/" target=”_blank”>
+          <p>Linkedin</p>
+        </a>
+        <a href="mailto:emilyloughran73@gmail.com" target=”_blank”>
+          <p>Email</p>
+        </a>
+      </div>
+    </footer>
+    <script>
+      $(window).scroll(function() {
+        // selectors
+        var $window = $(window),
+          $body = $('body'),
+          $panel = $('.panel');
+        // Change 33% earlier than scroll position so colour is there when you arrive.
+        var scroll = $window.scrollTop() + ($window.height() / 3);
+        $panel.each(function() {
+          var $this = $(this);
+          // if position is within range of this panel.
+          // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+          // Remember we set the scroll to 33% earlier in scroll var.
+          if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+            // Remove all classes on body with color-
+            $body.removeClass(function(index, css) {
+              return (css.match(/(^|\s)color-\S+/g) || []).join(' ');
+            });
+            // Add class of currently active div
+            $body.addClass('color-' + $(this).data('color'));
+          }
+        });
+      }).scroll();
+    </script>
+  </body>
+</html>
