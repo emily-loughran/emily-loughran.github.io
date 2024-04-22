@@ -865,6 +865,13 @@ section .med-image img {
   align-items: center;
   
 }
+ 
+    section .med-image img {
+    
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
     
     
 }
@@ -887,5 +894,7 @@ section .med-image img {
        font-size: 160px; 
         
     }
+
+    
     
 }
