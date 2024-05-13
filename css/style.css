@@ -88,17 +88,31 @@ h5 {
 button {
     border: 3px solid #22222270;
     padding: 16px 120px 16px 120px;
-    font-size: 28px;
     border-radius: 80px;
     background-color: #F5F0F0;
     transition: background 0.7s ease;
 }
 
+button a {
+    
+    font-size: 28px;
+    font-family:'AreaInktrap-Bold';
+    font-weight: 100;
+    
+}
+
 button:hover {
 
-    color: #F5F0F0;
+    
     background-color: #222; 
 }
+
+button:hover a {
+
+    color: #F5F0F0;
+    
+}
+
 
 
 
