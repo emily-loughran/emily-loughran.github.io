@@ -93,7 +93,7 @@ button {
     transition: background 0.7s ease;
 }
 
-button a {
+a button {
     
     font-size: 28px;
     font-family:'AreaInktrap-Bold';
@@ -107,9 +107,10 @@ button:hover {
     background-color: #222; 
 }
 
-button:hover a {
+a button:hover {
 
     color: #F5F0F0;
+    cursor: pointer;
     
 }
 
