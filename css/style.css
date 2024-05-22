@@ -19,6 +19,15 @@ body {
   transition: background-color 1s ease;
 }
 
+.temporary-cover {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 1100px;
+}
+
+
+
+
 /* panel styles */
 .panel {
   /* min height incase content is higher than window height */
