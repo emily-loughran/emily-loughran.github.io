@@ -1,11 +1,11 @@
 ::-moz-selection { /* Code for Firefox */
-  color: #222;
-  background: #9ABACC;
+  color: #cc5500;
+  background: #EAEBC2;
 }
 
 ::selection {
-  color: #222;
-  background: #9ABACC;
+  color: #cc5500;
+  background: #EAEBC2;
 }
 
 
@@ -79,7 +79,7 @@ p {
 
 
 h1 {
-    font-size: 80px;
+    font-size: 96px;
     line-height: 1.1;
     font-weight:100;
 }
@@ -107,7 +107,7 @@ h5 {
 }
 
 button {
-    border: 3px solid #22222270;
+    border: 3px solid #22222260;
     padding: 16px 120px 16px 120px;
     border-radius: 80px;
     background-color: #F5F0F0;
@@ -143,6 +143,7 @@ header {
     overflow: hidden;
     padding-left: 40px;
     padding-right:40px;
+    border-bottom: solid 3px #22222210;
 }
 header a {
     transition: opacity 0.6s ease;
@@ -674,6 +675,11 @@ footer a {
     background-color: #222;
     color: #DFD7E0;
 }
+
+.dark-theme header  {
+    border-bottom: solid 3px #1F1F1F;
+}
+
 .dark-theme a {
     color: #DFD7E0;
 }
@@ -949,12 +955,16 @@ section .med-image img {
     }
   header nav {
         margin-top: 4px;
-      margin-bottom: 8px;
+      margin-bottom: -8px;
     
     }
     
     .dark-theme h3 {
    font-size: 24px;
+}
+    
+        .dark-theme .next-project h3 {
+   font-size: 40px;
 }
     
     
@@ -1079,14 +1089,20 @@ section .med-image img {
  
     button {
     padding: 16px 80px 16px 80px;
-    font-size: 28px;
+    font-size: 24px;
     
 }
    .featured-content-about button {
     margin-left: 20px;
        margin-top: 8px;
-       margin-bottom: 120px;
+       margin-bottom: 40px;
     
+}
+    
+    .temporary-cover {
+    margin-left: 20px;
+    margin-right: 20px;
+   
 }
     
 }
