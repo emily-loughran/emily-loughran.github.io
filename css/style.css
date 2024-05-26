@@ -1,11 +1,11 @@
 ::-moz-selection { /* Code for Firefox */
-  color: #cc5500;
-  background: #EAEBC2;
+  color: #cd5928;
+  background: #f5f5ea;
 }
 
 ::selection {
-  color: #cc5500;
-  background: #EAEBC2;
+  color: #cd5928;
+  background: #f5f5ea;
 }
 
 
@@ -483,7 +483,7 @@ nav a {
 }
 
 .next-project-card {
-    background-color:  #EAEBC2;
+    background-color:  #f5f5ea;
     padding-bottom: 0px;
     overflow: hidden;
     padding-left: 0px;
@@ -503,7 +503,7 @@ nav a {
 
 
 .black {
-    color: #cc5500;
+    color: #cd5928;
 }
 
 
